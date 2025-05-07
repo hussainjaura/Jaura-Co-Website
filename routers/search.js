@@ -23,8 +23,10 @@ const getProducts = () => {
 // handle GET request for /search route to display the search form
 router.get("/search", (req, res, next) => {
   logger.debug("GET /search accessed");
-  // pass an empty array and null for message
-  res.render("search", { products: [], message: null });
+  // get all products to display when page is first loaded
+  const showProducts = getProducts();
+  // pass all products and null for message
+  res.render("search", { products: showProducts, message: null });
 });
 
 // route to post products when user searches
@@ -39,7 +41,10 @@ router.post("/search", (req, res, next) => {
   // initialized an empty array to store filtered products
   let filteredProducts = [];
 
-  if (!query && category) {
+  if (!query && !category) {
+    // If no search query and no category selected, show all products
+    filteredProducts = products;
+  } else if (!query && category) {
     // If no product name is entered but a category is selected, show all products from that category
     filteredProducts = products.filter(
       (product) => product.category.toLowerCase() === category.toLowerCase()

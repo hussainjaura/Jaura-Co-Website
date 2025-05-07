@@ -5,6 +5,7 @@ import Stripe from "stripe";
 import { url } from "inspector";
 import db from "../database/database.js";
 import dotenv from "dotenv";
+import logger from "../utils/logger.js";
 
 // load environmental variables from .env file
 dotenv.config();
@@ -18,8 +19,8 @@ const stripe = new Stripe(process.env.secret_key);
 //this router will be for my checkout page button is pressed it moves to the new page that will be
 //most probabky a ejs file that is going to ask the user if they are sure about there payment:
 router.post("/checkout", async (req, res) => {
-  console.log("Checkout router hit!");
-  console.log("Received cart items:", req.body);
+  logger.debug("Checkout router hit!");
+  logger.debug(`Received cart items: ${JSON.stringify(req.body)}`);
 
   try {
     // get cart items from request body
@@ -51,7 +52,7 @@ router.post("/checkout", async (req, res) => {
     // to send Stripe checkout URL
     res.json({ id: session.id, url: session.url });
   } catch (err) {
-    console.error(err);
+    logger.error(`Checkout error: ${err.message}`);
     res.status(500).json({ error: err.message });
   }
 });
@@ -59,10 +60,10 @@ router.post("/checkout", async (req, res) => {
 // route for checkout success
 router.get("/checkout/success", async (req, res) => {
   // check the session data
-  console.log("Received session:", req.session);
+  logger.debug(`Session received: ${JSON.stringify(req.session)}`);
 
   try {
-    console.log("Session before checking user ID:", req.session);
+    logger.debug(`User session data: ${JSON.stringify(req.session.user)}`);
 
     // this ensures user session is correctly set
     const userId = req.session.user ? req.session.user.id : null;
@@ -75,7 +76,7 @@ router.get("/checkout/success", async (req, res) => {
 
     // to remove cart items for the logged-in user
     await db.execute("DELETE FROM cart WHERE user_id = ?", [userId]);
-    console.log(`All items deleted from cart for user ID: ${userId}`);
+    logger.debug(`Cleared cart for user ID: ${userId}`);
 
     res.render("success");
   } catch (err) {

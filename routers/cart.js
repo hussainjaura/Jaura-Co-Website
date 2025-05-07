@@ -2,6 +2,7 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import db from "../database/database.js";
+import logger from "../utils/logger.js";
 
 // file and directory name to use in routing
 const __filename = fileURLToPath(import.meta.url);
@@ -27,12 +28,12 @@ router.get("/cart", async (req, res) => {
     );
 
     // logs cartItems to verify data
-    console.log("Cart items:", cartItems);
+    logger.debug(`Cart items for user ${userId}: ${JSON.stringify(cartItems)}`);
 
     // render cart page with the cart items
     res.render("cart", { cartItems });
   } catch (err) {
-    console.error("Error retrieving cart items:", err);
+    logger.error(`Error retrieving cart items: ${err.message}`);
     res.status(500).json({ error: "Error retrieving cart items" });
   }
 });
@@ -70,14 +71,16 @@ router.post("/cart/add", async (req, res) => {
         "UPDATE cart SET quantity = ? WHERE product_id = ? AND user_id = ?",
         [updatedQuantity, productIdNum, userId]
       );
-      console.log(`Updated item with productId ${productIdNum}`);
+      logger.debug(
+        `Updated quantity for product ${productIdNum} to ${updatedQuantity}`
+      );
     } else {
       // if the item does not exist insert it into the cart
       await db.execute(
         "INSERT INTO cart (user_id, product_id, name, price, quantity, image_url) VALUES (?, ?, ?, ?, ?, ?)",
         [userId, productIdNum, name, priceNum, quantityNum, imageUrl || null]
       );
-      console.log(`Added new item with productId ${productIdNum}`);
+      logger.debug(`Added new item to cart: productId ${productIdNum}`);
     }
 
     // send success response
@@ -105,10 +108,10 @@ router.post("/cart/remove", async (req, res) => {
   try {
     // to delete item from cart using productID
     await db.execute("DELETE FROM cart WHERE product_id = ?", [productIdNum]);
-    console.log("Item removed from cart");
+    logger.debug(`Removed product ${productIdNum} from cart`);
     res.status(200).json({ message: "Item removed from cart" });
   } catch (err) {
-    console.error("Error removing item from cart:", err);
+    logger.error(`Error removing item from cart: ${err.message}`);
     res.status(500).json({ error: "Error removing item from cart" });
   }
 });
@@ -132,10 +135,13 @@ router.post("/cart/update", async (req, res) => {
       quantityNum,
       productIdNum,
     ]);
+    logger.debug(
+      `Updated cart item ${productIdNum} to quantity ${quantityNum}`
+    );
     res.status(200).json({ message: "Cart updated successfully" });
   } catch (err) {
     // to handle errors
-    console.error("Error updating cart:", err);
+    logger.error(`Error updating cart item: ${err.message}`);
     res.status(500).json({ error: "Error updating item in cart" });
   }
 });

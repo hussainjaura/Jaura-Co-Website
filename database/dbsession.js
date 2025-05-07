@@ -2,6 +2,7 @@ import mysql from "mysql2/promise";
 import expressSession from "express-session";
 import MySQLStoreFactory from "express-mysql-session";
 import dotenv from "dotenv";
+import logger from "../utils/logger.js";
 
 // to load environmental variables
 dotenv.config();
@@ -21,9 +22,9 @@ const sessionStore = new MySQLStore({}, pool);
 
 // check if sessionStore is initialized
 if (!sessionStore) {
-  console.error("Session store is not initialized properly!");
+  logger.error("Session store is not initialized properly!");
 } else {
-  console.log("Session store initialized successfully.");
+  logger.info("Session store initialized successfully.");
 }
 
 // check the database connection
@@ -31,8 +32,10 @@ async function checkDatabaseConnection() {
   try {
     const connection = await pool.getConnection();
     connection.release(); // Release connection back to the pool
+    logger.info("SESSION database connected successfully.");
     return "SESSION database connected successfully";
   } catch (error) {
+    logger.error("SESSION database connection failed:", error);
     throw new Error("SESSION database connection failed");
   }
 }

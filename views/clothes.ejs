@@ -19,8 +19,6 @@
       const quantity = 1;
 
       try {
-        // check if productId, name, price, and imageUrl are correctly passed
-        console.log('Adding to cart:', { productId, name, price, imageUrl, quantity });
 
         const response = await fetch('/cart/add', {
           method: 'POST',
@@ -34,7 +32,6 @@
           showPopup(`${name} has been added to your cart!`, 'Added to Cart');
           // redirect to cart after adding item
           // window.location.href = '/cart';  // Redirect to the cart page
-          console.log('Product added to cart:', productId, productName, productPrice, productImage);
         } else {
           showPopup('Please Log In or Sign Up before adding items to cart.', 'Authentication Required!');
         }

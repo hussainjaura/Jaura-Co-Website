@@ -5,14 +5,16 @@ import User from "../models/user.js";
 import session from "express-session";
 import pool from "../database/database.js";
 import MySQLStore from "connect-mysql2";
+import logger from "../utils/logger.js";
 
+// creatig express router instance
 const router = express.Router();
 
 // user signup route
 router.post("/signup", async (req, res) => {
-  console.log("Form submission started");
+  logger.info("form submission started");
   const { username, email, password } = req.body;
-  console.log("Received data:", { username, email, password });
+  logger.debug(`received signup data: ${JSON.stringify({ username, email })}`);
 
   try {
     // check if the user already exists in the database
@@ -43,14 +45,14 @@ router.post("/signup", async (req, res) => {
 
     //to store the user session:
     req.session.user = { id: newUser.id, username: newUser.username };
-    console.log("Session data set:", req.session);
+    logger.debug(`Session data set: ${JSON.stringify(req.session.user)}`);
 
     res.status(201).json({
       message: "User has been registered!",
       username: newUser.username,
     });
   } catch (err) {
-    console.error("Signup error:", err);
+    logger.error(`Signup error: ${err.message}`, err);
     res.status(500).json({ message: "An internal server error occurred." });
   }
 });
@@ -61,7 +63,7 @@ router.post("/login", async (req, res) => {
   const userId = 1;
 
   try {
-    console.log("Received login request:", { email, password });
+    logger.debug(`Login credentials received: ${JSON.stringify({ email })}`);
 
     // Step 1: Look for the user in the database
     const user = await User.findOne({ where: { email } });
@@ -69,13 +71,13 @@ router.post("/login", async (req, res) => {
 
     // error if user not found
     if (!user) {
-      console.log("User not found for email:", email);
+      logger.warn(`Login failed - User not found for email: ${email}`);
       return res.status(400).json({ message: "Invalid email or password." });
     }
 
     // Step 2: validate passwords
     const match = await bcrypt.compare(password, user.password);
-    console.log("Password match:", match);
+    logger.debug(`Password match: ${match}`);
 
     //to fetch the data from cart table so that we ca login and get our cart data:
     const [cartItems] = await pool.execute(
@@ -87,14 +89,16 @@ router.post("/login", async (req, res) => {
 
     // error if it is not a match
     if (!match) {
-      console.log("Password mismatch for user:", user.username);
+      logger.warn(
+        `Login failed - Password mismatch for user: ${user.username}`
+      );
       return res.status(400).json({ message: "Invalid email or password." });
     }
 
     // Step 3: Store session data
     if (user && match) {
       req.session.user = { id: user.id, username: user.username };
-      console.log("Session data set:", req.session.user);
+      logger.debug(`Session data set: ${JSON.stringify(req.session.user)}`);
     } else {
       console.log("Session is undefined.");
       return res.status(500).json({ message: "Session not available." });
@@ -105,7 +109,7 @@ router.post("/login", async (req, res) => {
       .status(200)
       .json({ message: "Login successful.", username: user.username });
   } catch (err) {
-    console.error("Login error:", err);
+    logger.error(`Login error: ${err.message}`, err);
     res.status(500).json({ message: "An internal server error occurred." });
   }
 });
@@ -131,13 +135,14 @@ router.post("/logout", async (req, res) => {
     // destroy the session to logout
     req.session.destroy((err) => {
       if (err) {
+        logger.error("Logout failed during session destruction", err);
         return res.status(500).json({ message: "Logout failed" });
       }
       res.clearCookie("user_cookie");
       res.json({ message: "Logged out successfully" });
     });
   } catch (err) {
-    console.error("Logout error:", err);
+    logger.error(`Logout error: ${err.message}`, err);
     res.status(500).json({ message: "An error occurred during logout" });
   }
 });
@@ -145,20 +150,20 @@ router.post("/logout", async (req, res) => {
 // check session route
 router.get("/session", async (req, res) => {
   try {
-    console.log("Session Object:", req.session);
+    logger.debug(`Session object: ${JSON.stringify(req.session)}`);
 
     // check if user is logged in by checking session.user
     if (req.session.user) {
       // fetch session data from the session cookie
       const sessionId = req.sessionID;
-      console.log("Session ID from req.sessionID:", sessionId);
+      logger.debug(`Session ID from req.sessionID: ${sessionId}`);
 
       // get session from mysql database
       const [sessionData] = await pool.execute(
         "SELECT * FROM sessions WHERE session_id = ?",
         [sessionId]
       );
-      console.log("Session data from DB:", sessionData);
+      logger.debug(`Session data from DB: ${JSON.stringify(sessionData)}`);
 
       if (sessionData && sessionData.length > 0) {
         // send back the session ID if it's stored in the database
@@ -174,7 +179,7 @@ router.get("/session", async (req, res) => {
       res.json({ loggedIn: false });
     }
   } catch (err) {
-    console.error("Error fetching session data:", err);
+    logger.error(`Error fetching session data: ${err.message}`, err);
     res
       .status(500)
       .json({ error: "An error occurred while fetching session data." });

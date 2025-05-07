@@ -129,8 +129,6 @@
             }
 
             try {
-              console.log("Sending cart items:", cartItems);
-
               const response = await fetch("/checkout", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },

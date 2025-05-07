@@ -342,7 +342,7 @@ body {
     flex-direction: row;
     padding: 0.5rem 1rem;
   }
-
+  /* made nav links horizontal for a better mobile UI */
   .nav-links {
     flex-direction: row;
     gap: 1rem;

@@ -2,6 +2,7 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import fs from "fs";
+import logger from "../utils/logger.js";
 
 // to generate current file path and directory name
 const __filename = fileURLToPath(import.meta.url);
@@ -21,6 +22,7 @@ const getProducts = () => {
 
 // handle GET request for /search route to display the search form
 router.get("/search", (req, res, next) => {
+  logger.debug("GET /search accessed");
   // pass an empty array and null for message
   res.render("search", { products: [], message: null });
 });

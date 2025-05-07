@@ -5,6 +5,7 @@ import session from "express-session";
 import dbsession from "../database/dbsession.js";
 import cookieParser from "cookie-parser";
 import dotenv from "dotenv";
+import logger from "../utils/logger.js";
 
 // load environmental variables from .env file
 dotenv.config();
@@ -50,9 +51,9 @@ async function initializeApp() {
     // await the promise returned by checkDatabaseConnection
     const message = await checkDatabaseConnection();
     // this will show whether the connection is successful or not
-    console.log(message);
+    logger.info(message);
   } catch (error) {
-    console.log(error);
+    logger.error(`Database connection error: ${error.message}`);
   }
 }
 
@@ -64,7 +65,7 @@ app.set("views", path.join(__dirname, "..", "views"));
 
 // middleware to log requests
 app.use((req, res, next) => {
-  console.log(`Received request: ${req.method} ${req.url}`);
+  logger.http(`${req.method} ${req.url}`);
   // proceed to next middleware
   next();
 });
@@ -115,7 +116,7 @@ app.get("/test", (req, res) => {
 
 // 404 Page for unmatched routes
 app.use((req, res, next) => {
-  console.log("404 error handler triggered for path:", req.path);
+  logger.warn(`404 - Page not found: ${req.path}`);
   res.status(404).render("error", {
     title: "Error 404 - Jaura & Co",
     message: "Page Not Found",
@@ -126,7 +127,7 @@ app.use((req, res, next) => {
 
 // added a general error handler
 app.use((err, req, res, next) => {
-  console.error("Error:", err);
+  logger.error(`500 - Internal Server Error: ${err.message}`);
   res.status(500).render("error", {
     title: "Error 500 - Jaura & Co",
     message: "Something went wrong!",
@@ -137,5 +138,5 @@ app.use((err, req, res, next) => {
 
 // to start the server
 app.listen(3000, () => {
-  console.log("Server is up at http://localhost:3000");
+  logger.info("server is running at http://localhost:3000");
 });

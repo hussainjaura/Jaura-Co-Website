@@ -269,7 +269,7 @@ a.secondary-btn .fa-search{
         flex-direction: row;
         padding: 0.5rem 1rem;
     }
-
+    /* to stack navlinks horizontally for a better user experienace */
     .nav-links {
         flex-direction: row;
         gap: 1rem;

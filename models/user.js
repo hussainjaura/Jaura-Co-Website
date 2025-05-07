@@ -1,5 +1,6 @@
 import { Sequelize, DataTypes } from "sequelize";
 import dotenv from "dotenv";
+import logger from "../utils/logger.js";
 
 // load environmental variables from .env file
 dotenv.config();
@@ -68,7 +69,7 @@ try {
   await sequelize.authenticate();
   console.log("Connection has been established successfully!");
 } catch (err) {
-  console.error("Unable to establish a connection:", err.message);
+  logger.error(`Unable to establish a connection: ${err.message}`);
 }
 
 export default User;

@@ -1,5 +1,6 @@
 import mysql from "mysql2/promise";
 import dotenv from "dotenv";
+import logger from "../utils/logger.js";
 
 // to load environmental variables
 dotenv.config();
@@ -25,9 +26,11 @@ async function testDatabaseConnection() {
   try {
     const [results] = await pool.query("SELECT 1 + 1 AS solution");
     // should output 2 just as a test
-    console.log("Database connected! Test query result:", results[0].solution);
+    logger.info(
+      `Database connected! Test query result: ${results[0].solution}`
+    );
   } catch (err) {
-    console.error("Database connection failed:", err.message);
+    logger.error(`Database connection failed: ${err.message}`);
   }
 }
 

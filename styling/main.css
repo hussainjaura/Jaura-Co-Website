@@ -351,11 +351,13 @@ body {
 
 /* responsive adjustments for smaller screens */
 @media (max-width: 768px) {
+  /* ajusted navbar layout for smaller screens */
   .navbar .container {
     flex-direction: row;
     padding: 0.5rem 1rem;
   }
 
+  /* to stack navlinks horizontally for a better user experienace */
   .nav-links {
     flex-direction: row;
     gap: 1rem;

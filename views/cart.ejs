@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart - Jaura & Co</title>
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
+    <link rel="stylesheet" href="/ClothingSite/styling/cart.css" />
+    <!-- Add Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Add Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script>
+      // for dynamic cart item removal
+      async function removeItem(productId) {
+        try {
+          const response = await fetch("/cart/remove", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ productId }),
+          });
+
+          if (response.ok) {
+            // remove the item from the DOM
+            const cartItem = document.getElementById(`cart-item-${productId}`);
+            if (cartItem) cartItem.remove();
+
+            // update total items and price dynamically
+            const totalItemsElem = document.getElementById("total-items");
+            const totalPriceElem = document.getElementById("total-price");
+
+            const itemQuantity = parseInt(cartItem.dataset.quantity);
+            const itemPrice = parseFloat(cartItem.dataset.price);
+
+            const currentTotalItems = parseInt(totalItemsElem.textContent);
+            const currentTotalPrice = parseFloat(totalPriceElem.textContent);
+
+            const newTotalItems = currentTotalItems - itemQuantity;
+            const newTotalPrice = currentTotalPrice - itemPrice * itemQuantity;
+
+            totalItemsElem.textContent = newTotalItems;
+            totalPriceElem.textContent = newTotalPrice.toFixed(2);
+
+            // check if the cart is now empty
+            if (newTotalItems === 0) {
+              updateCartToEmptyState();
+            }
+          } else {
+            console.error("Failed to remove the item from the cart.");
+          }
+        } catch (error) {
+          console.error("Error removing item:", error);
+        }
+      }
+
+      function updateItem(productId, quantity) {
+        // ensuring the entered quantity is valid
+        if (quantity < 1) {
+          alert("Quantity must be at least 1.");
+          return;
+        }
+
+        fetch("/cart/update", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            productId: productId,
+            quantity: parseInt(quantity, 10),
+          }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.message) {
+              location.reload();
+            } else if (data.error) {
+              console.error(data.error);
+            }
+          })
+          .catch((err) => {
+            console.error("Error updating item:", err);
+          });
+      }
+      //   to update cart display when its empty
+      function updateCartToEmptyState() {
+        const cartContainer = document.querySelector(".cart-items");
+        const cartSummary = document.querySelector(".cart-summary");
+        // clear the cart items area
+        if (cartContainer) cartContainer.innerHTML = "";
+        if (cartSummary)
+          cartSummary.innerHTML = `
+                <div class="empty-cart-message">
+                    <p>Your cart is currently empty. <a href="/clothes" class="continue-shopping-link">Continue shopping</a>.</p>
+                </div>
+            `;
+      }
+      //   wait for the page to fully load
+      document.addEventListener("DOMContentLoaded", () => {
+        const checkoutButton = document.getElementById("checkout-button");
+
+        if (checkoutButton) {
+          checkoutButton.addEventListener("click", async (e) => {
+            // prevent from page reload
+            e.preventDefault();
+
+            // collect items in the array
+            const cartItems = [];
+            document.querySelectorAll(".cart-item").forEach((item) => {
+              cartItems.push({
+                product_id: item.id.replace("cart-item-", ""),
+                name: item.querySelector("h3").textContent,
+                price: parseFloat(item.dataset.price) * 100, // Convert to pence
+                quantity: parseInt(item.dataset.quantity, 10),
+              });
+            });
+            // if no items show alert
+            if (cartItems.length === 0) {
+              alert("Your cart is empty!");
+              return;
+            }
+
+            try {
+              console.log("Sending cart items:", cartItems);
+
+              const response = await fetch("/checkout", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                // sent cart data
+                body: JSON.stringify({ cartItems }),
+              });
+
+              const session = await response.json();
+              if (session.url) {
+                // redirect to Stripe checkout
+                window.location.href = session.url;
+              } else {
+                console.error("Failed to retrieve session URL");
+              }
+            } catch (err) {
+              console.error("Checkout error:", err);
+            }
+          });
+        }
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- navigation Bar -->
+    <header class="navbar">
+      <div class="container">
+        <h1 class="logo">JAURA & CO</h1>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="/"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="/search"><i class="fas fa-search"></i> Search</a>
+            </li>
+            <li>
+              <a href="/clothes"><i class="fas fa-tshirt"></i> Shop</a>
+            </li>
+            <li>
+              <a href="/about"><i class="fas fa-info-circle"></i> About</a>
+            </li>
+            <li>
+              <a href="/cart" class="active"
+                ><i class="fas fa-shopping-cart"></i> Cart</a
+              >
+            </li>
+            <li>
+              <a href="/account"><i class="fas fa-user"></i> Account</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- cart hero section -->
+    <section class="cart-hero">
+      <div class="container">
+        <h2>Your Shopping Cart</h2>
+        <p>Review your items and proceed to checkout</p>
+      </div>
+    </section>
+
+    <!-- cart section -->
+    <section class="cart-section">
+      <div class="container">
+        <% if (cartItems.length === 0) { %>
+        <div class="empty-cart">
+          <i class="fas fa-shopping-cart"></i>
+          <h3>Your cart is empty</h3>
+          <p>Looks like you haven't added any items to your cart yet.</p>
+          <a href="/clothes" class="btn primary-btn">
+            Start Shopping <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+        <% } else { %>
+        <div class="cart-content">
+          <div class="cart-items">
+            <% let totalItems = 0; %> <% let totalPrice = 0; %> <%
+            cartItems.forEach(item => { %>
+            <div
+              id="cart-item-<%= item.product_id %>"
+              class="cart-item"
+              data-quantity="<%= item.quantity %>"
+              data-price="<%= item.price %>"
+            >
+              <div class="item-image">
+                <img src="<%= item.image_url %>" alt="<%= item.name %>" />
+              </div>
+              <div class="item-details">
+                <h3><%= item.name %></h3>
+                <p class="item-price">
+                  £<%= parseFloat(item.price).toFixed(2) %>
+                </p>
+                <div class="quantity-control">
+                  <label for="quantity-<%= item.product_id %>">Quantity:</label>
+                  <div class="quantity-wrapper">
+                    <button
+                      class="quantity-btn"
+                      onclick="updateQuantity('<%= item.product_id %>', 'decrease')"
+                    >
+                      -
+                    </button>
+                    <input
+                      id="quantity-<%= item.product_id %>"
+                      type="number"
+                      min="1"
+                      max="100"
+                      value="<%= item.quantity %>"
+                      onchange="updateItem('<%= item.product_id %>', this.value)"
+                    />
+                    <button
+                      class="quantity-btn"
+                      onclick="updateQuantity('<%= item.product_id %>', 'increase')"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="remove-btn"
+                onclick="removeItem('<%= item.product_id %>')"
+              >
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+            <% totalItems += parseInt(item.quantity); %> <% totalPrice +=
+            parseFloat(item.price) * parseInt(item.quantity); %> <% }); %>
+          </div>
+
+          <div class="cart-summary">
+            <h3>Order Summary</h3>
+            <div class="summary-details">
+              <div class="summary-row">
+                <span>Total Items:</span>
+                <span id="total-items"><%= totalItems %></span>
+              </div>
+              <div class="summary-row">
+                <span>Total Price:</span>
+                <span id="total-price">£<%= totalPrice.toFixed(2) %></span>
+              </div>
+            </div>
+            <button class="btn checkout-btn" id="checkout-button">
+              Proceed to Checkout <i class="fas fa-lock"></i>
+            </button>
+          </div>
+        </div>
+        <% } %>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="clothes">Shop</a></li>
+              <li><a href="about">About Us</a></li>
+              <li><a href="search">Search</a></li>
+              <li><a href="cart">Cart</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-envelope"></i> info@jauraandco.com</p>
+            <p><i class="fas fa-phone"></i> +44 123 456 789</p>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Jaura & Co. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // remove item from the cart
+      async function removeItem(productId) {
+        try {
+          const response = await fetch("/cart/remove", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ productId }),
+          });
+
+          if (response.ok) {
+            const cartItem = document.getElementById(`cart-item-${productId}`);
+            if (cartItem) {
+              const itemQuantity = parseInt(cartItem.dataset.quantity);
+              const itemPrice = parseFloat(cartItem.dataset.price);
+              // update the cart totals
+              updateTotals(-itemQuantity, -(itemPrice * itemQuantity));
+              //   remove item from DOM
+              cartItem.remove();
+
+              checkEmptyCart();
+            }
+          }
+        } catch (error) {
+          console.error("Error removing item:", error);
+        }
+      }
+
+      //   to increase or decrease item quantity
+      function updateQuantity(productId, action) {
+        const input = document.getElementById(`quantity-${productId}`);
+        let value = parseInt(input.value);
+
+        if (action === "increase") {
+          value = Math.min(value + 1, 100);
+        } else {
+          value = Math.max(value - 1, 1);
+        }
+
+        input.value = value;
+        // save updated quanity to server
+        updateItem(productId, value);
+      }
+      //   to update item quanitty on the server
+      async function updateItem(productId, quantity) {
+        const quantityNum = parseInt(quantity);
+        if (quantityNum < 1) {
+          alert("Quantity must be at least 1");
+          return;
+        }
+
+        try {
+          const response = await fetch("/cart/update", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              productId: productId,
+              quantity: quantityNum,
+            }),
+          });
+
+          if (response.ok) {
+            // reload page to render changes
+            location.reload();
+          }
+        } catch (error) {
+          console.error("Error updating item:", error);
+        }
+      }
+      //   update the total quanity and price on the page
+      function updateTotals(quantityChange, priceChange) {
+        const totalItemsElem = document.getElementById("total-items");
+        const totalPriceElem = document.getElementById("total-price");
+
+        const currentItems = parseInt(totalItemsElem.textContent);
+        const currentPrice = parseFloat(
+          totalPriceElem.textContent.replace("£", "")
+        );
+
+        totalItemsElem.textContent = currentItems + quantityChange;
+        totalPriceElem.textContent = `£${(currentPrice + priceChange).toFixed(
+          2
+        )}`;
+      }
+      //   reload the page if cart is empty
+      function checkEmptyCart() {
+        const cartItems = document.querySelectorAll(".cart-item");
+        if (cartItems.length === 0) {
+          location.reload();
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        // checkout functionality:
+        const checkoutButton = document.getElementById("checkout-button");
+        if (checkoutButton) {
+          checkoutButton.addEventListener("click", async () => {
+            const cartItems = [];
+            document.querySelectorAll(".cart-item").forEach((item) => {
+              cartItems.push({
+                product_id: item.id.replace("cart-item-", ""),
+                name: item.querySelector("h3").textContent,
+                price: parseFloat(item.dataset.price) * 100,
+                quantity: parseInt(item.dataset.quantity),
+              });
+            });
+
+            try {
+              const response = await fetch("/checkout", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ cartItems }),
+              });
+
+              const session = await response.json();
+              if (session.url) {
+                window.location.href = session.url;
+              }
+            } catch (error) {
+              console.error("Checkout error:", error);
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

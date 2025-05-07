@@ -1,0 +1,31 @@
+{
+  "name": "jaura-co",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "connect-mysql2": "^2.2.6",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-mysql-session": "^2.1.0",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.12.0",
+    "sequelize": "^6.37.5",
+    "stripe": "^17.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

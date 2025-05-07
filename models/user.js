@@ -58,18 +58,18 @@ const User = sequelize.define(
 sequelize
   .sync()
   .then(() => {
-    console.log("User table has been created!");
+    console.log("user table has been created!");
   })
   .catch((err) => {
-    console.log("Error occured:", err);
+    console.log("error occured:", err);
   });
 
 //   to check and authenticate the database connection
 try {
   await sequelize.authenticate();
-  console.log("Connection has been established successfully!");
+  console.log("connection has been established successfully!");
 } catch (err) {
-  logger.error(`Unable to establish a connection: ${err.message}`);
+  logger.error(`unable to establish a connection: ${err.message}`);
 }
 
 export default User;

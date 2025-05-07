@@ -19,8 +19,8 @@ const stripe = new Stripe(process.env.secret_key);
 //this router will be for my checkout page button is pressed it moves to the new page that will be
 //most probabky a ejs file that is going to ask the user if they are sure about there payment:
 router.post("/checkout", async (req, res) => {
-  logger.debug("Checkout router hit!");
-  logger.debug(`Received cart items: ${JSON.stringify(req.body)}`);
+  logger.debug("checkout router hit!");
+  logger.debug(`received cart items: ${JSON.stringify(req.body)}`);
 
   try {
     // get cart items from request body
@@ -52,7 +52,7 @@ router.post("/checkout", async (req, res) => {
     // to send Stripe checkout URL
     res.json({ id: session.id, url: session.url });
   } catch (err) {
-    logger.error(`Checkout error: ${err.message}`);
+    logger.error(`checkout error: ${err.message}`);
     res.status(500).json({ error: err.message });
   }
 });
@@ -60,28 +60,28 @@ router.post("/checkout", async (req, res) => {
 // route for checkout success
 router.get("/checkout/success", async (req, res) => {
   // check the session data
-  logger.debug(`Session received: ${JSON.stringify(req.session)}`);
+  logger.debug(`session received: ${JSON.stringify(req.session)}`);
 
   try {
-    logger.debug(`User session data: ${JSON.stringify(req.session.user)}`);
+    logger.debug(`user session data: ${JSON.stringify(req.session.user)}`);
 
     // this ensures user session is correctly set
     const userId = req.session.user ? req.session.user.id : null;
-    console.log("User Session:", req.session.user);
+    console.log("user Session:", req.session.user);
 
     if (!userId) {
-      console.error("No user is logged in!");
-      return res.status(401).json({ error: "User not logged in" });
+      console.error("no user is logged in!");
+      return res.status(401).json({ error: "user not logged in" });
     }
 
     // to remove cart items for the logged-in user
     await db.execute("DELETE FROM cart WHERE user_id = ?", [userId]);
-    logger.debug(`Cleared cart for user ID: ${userId}`);
+    logger.debug(`cleared cart for user ID: ${userId}`);
 
     res.render("success");
   } catch (err) {
-    console.error("Error removing all items from cart:", err);
-    res.status(500).json({ error: "Error removing items from cart" });
+    console.error("error removing all items from cart:", err);
+    res.status(500).json({ error: "error removing items from cart" });
   }
 });
 

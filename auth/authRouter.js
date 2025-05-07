@@ -21,10 +21,10 @@ router.post("/signup", async (req, res) => {
     console.log("Checking for existing user...");
     const existingUser = await User.findOne({ where: { email } });
     if (existingUser) {
-      console.log("User already exists");
+      console.log("user already exists");
       return res
         .status(400)
-        .json({ message: "User already exists. Please log in!" });
+        .json({ message: "user already exists please log in!" });
     }
     // hash the password before saving
     const hashedPass = await bcrypt.hash(password, 10);
@@ -35,24 +35,24 @@ router.post("/signup", async (req, res) => {
       email,
       password: hashedPass,
     });
-    console.log("Session Object before setting user:", req.session);
+    console.log("session object before setting user:", req.session);
 
     // make sure session middleware is working
     if (!req.session) {
-      console.error("Session is undefined. Check session middleware setup.");
-      return res.status(500).send("Server error: Session not initialized");
+      console.error("session is undefined. check session middleware setup.");
+      return res.status(500).send("server error: session not initialized");
     }
 
     //to store the user session:
     req.session.user = { id: newUser.id, username: newUser.username };
-    logger.debug(`Session data set: ${JSON.stringify(req.session.user)}`);
+    logger.debug(`session data set: ${JSON.stringify(req.session.user)}`);
 
     res.status(201).json({
-      message: "User has been registered!",
+      message: "user has been registered!",
       username: newUser.username,
     });
   } catch (err) {
-    logger.error(`Signup error: ${err.message}`, err);
+    logger.error(`signup error: ${err.message}`, err);
     res.status(500).json({ message: "An internal server error occurred." });
   }
 });
@@ -63,21 +63,21 @@ router.post("/login", async (req, res) => {
   const userId = 1;
 
   try {
-    logger.debug(`Login credentials received: ${JSON.stringify({ email })}`);
+    logger.debug(`login credentials received: ${JSON.stringify({ email })}`);
 
     // Step 1: Look for the user in the database
     const user = await User.findOne({ where: { email } });
-    console.log("User found:", user); // Log user data
+    console.log("user found:", user); // Log user data
 
     // error if user not found
     if (!user) {
-      logger.warn(`Login failed - User not found for email: ${email}`);
-      return res.status(400).json({ message: "Invalid email or password." });
+      logger.warn(`login failed - user not found for email: ${email}`);
+      return res.status(400).json({ message: "invalid email or password." });
     }
 
     // Step 2: validate passwords
     const match = await bcrypt.compare(password, user.password);
-    logger.debug(`Password match: ${match}`);
+    logger.debug(`password match: ${match}`);
 
     //to fetch the data from cart table so that we ca login and get our cart data:
     const [cartItems] = await pool.execute(
@@ -90,27 +90,27 @@ router.post("/login", async (req, res) => {
     // error if it is not a match
     if (!match) {
       logger.warn(
-        `Login failed - Password mismatch for user: ${user.username}`
+        `login failed - password mismatch for user: ${user.username}`
       );
-      return res.status(400).json({ message: "Invalid email or password." });
+      return res.status(400).json({ message: "invalid email or password." });
     }
 
     // Step 3: Store session data
     if (user && match) {
       req.session.user = { id: user.id, username: user.username };
-      logger.debug(`Session data set: ${JSON.stringify(req.session.user)}`);
+      logger.debug(`session data set: ${JSON.stringify(req.session.user)}`);
     } else {
-      console.log("Session is undefined.");
-      return res.status(500).json({ message: "Session not available." });
+      console.log("session is undefined.");
+      return res.status(500).json({ message: "session not available." });
     }
 
     // Step 4: Respond with success
     res
       .status(200)
-      .json({ message: "Login successful.", username: user.username });
+      .json({ message: "login successful.", username: user.username });
   } catch (err) {
-    logger.error(`Login error: ${err.message}`, err);
-    res.status(500).json({ message: "An internal server error occurred." });
+    logger.error(`login error: ${err.message}`, err);
+    res.status(500).json({ message: "an internal server error occurred." });
   }
 });
 
@@ -135,35 +135,35 @@ router.post("/logout", async (req, res) => {
     // destroy the session to logout
     req.session.destroy((err) => {
       if (err) {
-        logger.error("Logout failed during session destruction", err);
-        return res.status(500).json({ message: "Logout failed" });
+        logger.error("logout failed during session destruction", err);
+        return res.status(500).json({ message: "logout failed" });
       }
       res.clearCookie("user_cookie");
-      res.json({ message: "Logged out successfully" });
+      res.json({ message: "logged out successfully" });
     });
   } catch (err) {
-    logger.error(`Logout error: ${err.message}`, err);
-    res.status(500).json({ message: "An error occurred during logout" });
+    logger.error(`logout error: ${err.message}`, err);
+    res.status(500).json({ message: "an error occurred during logout" });
   }
 });
 
 // check session route
 router.get("/session", async (req, res) => {
   try {
-    logger.debug(`Session object: ${JSON.stringify(req.session)}`);
+    logger.debug(`session object: ${JSON.stringify(req.session)}`);
 
     // check if user is logged in by checking session.user
     if (req.session.user) {
       // fetch session data from the session cookie
       const sessionId = req.sessionID;
-      logger.debug(`Session ID from req.sessionID: ${sessionId}`);
+      logger.debug(`session ID from req.sessionID: ${sessionId}`);
 
       // get session from mysql database
       const [sessionData] = await pool.execute(
         "SELECT * FROM sessions WHERE session_id = ?",
         [sessionId]
       );
-      logger.debug(`Session data from DB: ${JSON.stringify(sessionData)}`);
+      logger.debug(`session data from DB: ${JSON.stringify(sessionData)}`);
 
       if (sessionData && sessionData.length > 0) {
         // send back the session ID if it's stored in the database
@@ -179,7 +179,7 @@ router.get("/session", async (req, res) => {
       res.json({ loggedIn: false });
     }
   } catch (err) {
-    logger.error(`Error fetching session data: ${err.message}`, err);
+    logger.error(`error fetching session data: ${err.message}`, err);
     res
       .status(500)
       .json({ error: "An error occurred while fetching session data." });
@@ -189,7 +189,7 @@ router.get("/session", async (req, res) => {
 // route to render the login-required page
 router.get("/login-required", (req, res) => {
   res.render("login-required", {
-    message: "You must be logged in to add items to your cart!",
+    message: "you must be logged in to add items to your cart!",
   });
 });
 

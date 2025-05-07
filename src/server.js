@@ -53,7 +53,7 @@ async function initializeApp() {
     // this will show whether the connection is successful or not
     logger.info(message);
   } catch (error) {
-    logger.error(`Database connection error: ${error.message}`);
+    logger.error(`database connection error: ${error.message}`);
   }
 }
 
@@ -111,7 +111,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/test", (req, res) => {
-  res.send("Server is working");
+  res.send("server is working fine");
 });
 
 // 404 Page for unmatched routes

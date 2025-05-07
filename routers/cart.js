@@ -28,13 +28,13 @@ router.get("/cart", async (req, res) => {
     );
 
     // logs cartItems to verify data
-    logger.debug(`Cart items for user ${userId}: ${JSON.stringify(cartItems)}`);
+    logger.debug(`cart items for user ${userId}: ${JSON.stringify(cartItems)}`);
 
     // render cart page with the cart items
     res.render("cart", { cartItems });
   } catch (err) {
-    logger.error(`Error retrieving cart items: ${err.message}`);
-    res.status(500).json({ error: "Error retrieving cart items" });
+    logger.error(`error retrieving cart items: ${err.message}`);
+    res.status(500).json({ error: "error retrieving cart items" });
   }
 });
 
@@ -50,11 +50,11 @@ router.post("/cart/add", async (req, res) => {
   const quantityNum = parseInt(quantity, 10);
 
   if (!productIdNum || !name || isNaN(priceNum) || isNaN(quantityNum)) {
-    return res.status(400).send("Invalid product data");
+    return res.status(400).send("invalid product data");
   }
 
   if (!userId) {
-    return res.status(401).json({ error: "User not logged in" });
+    return res.status(401).json({ error: "user is not logged in" });
   }
 
   try {
@@ -72,7 +72,7 @@ router.post("/cart/add", async (req, res) => {
         [updatedQuantity, productIdNum, userId]
       );
       logger.debug(
-        `Updated quantity for product ${productIdNum} to ${updatedQuantity}`
+        `updated quantity for product ${productIdNum} to ${updatedQuantity}`
       );
     } else {
       // if the item does not exist insert it into the cart
@@ -80,14 +80,14 @@ router.post("/cart/add", async (req, res) => {
         "INSERT INTO cart (user_id, product_id, name, price, quantity, image_url) VALUES (?, ?, ?, ?, ?, ?)",
         [userId, productIdNum, name, priceNum, quantityNum, imageUrl || null]
       );
-      logger.debug(`Added new item to cart: productId ${productIdNum}`);
+      logger.debug(`added new item to cart: productId ${productIdNum}`);
     }
 
     // send success response
     res.status(200).json({ message: "Item added to cart" });
   } catch (err) {
-    console.error("Error adding item to cart:", err);
-    res.status(500).json({ error: "Error adding item to cart" });
+    console.error("error adding item to cart:", err);
+    res.status(500).json({ error: "error adding item to cart" });
   }
 });
 
@@ -95,20 +95,20 @@ router.post("/cart/add", async (req, res) => {
 router.post("/cart/remove", async (req, res) => {
   // get product id from the request body
   const { productId } = req.body;
-  console.log("Removing item with productId:", productId);
+  console.log("removing item with productId:", productId);
 
   const productIdNum = parseInt(productId, 10);
 
   //   if product id is invalid then return error
   if (!productIdNum) {
-    console.log("Invalid product ID");
-    return res.status(400).send("Invalid product ID");
+    console.log("invalid product ID");
+    return res.status(400).send("invalid product ID");
   }
 
   try {
     // to delete item from cart using productID
     await db.execute("DELETE FROM cart WHERE product_id = ?", [productIdNum]);
-    logger.debug(`Removed product ${productIdNum} from cart`);
+    logger.debug(`removed product ${productIdNum} from cart`);
     res.status(200).json({ message: "Item removed from cart" });
   } catch (err) {
     logger.error(`Error removing item from cart: ${err.message}`);
@@ -126,7 +126,7 @@ router.post("/cart/update", async (req, res) => {
   const quantityNum = parseInt(quantity, 10);
 
   if (!productIdNum || isNaN(quantityNum)) {
-    return res.status(400).json({ error: "Invalid data" });
+    return res.status(400).json({ error: "invalid data" });
   }
 
   try {
@@ -136,13 +136,13 @@ router.post("/cart/update", async (req, res) => {
       productIdNum,
     ]);
     logger.debug(
-      `Updated cart item ${productIdNum} to quantity ${quantityNum}`
+      `updated cart item ${productIdNum} to quantity ${quantityNum}`
     );
     res.status(200).json({ message: "Cart updated successfully" });
   } catch (err) {
     // to handle errors
-    logger.error(`Error updating cart item: ${err.message}`);
-    res.status(500).json({ error: "Error updating item in cart" });
+    logger.error(`error updating cart item: ${err.message}`);
+    res.status(500).json({ error: "error updating item in cart" });
   }
 });
 

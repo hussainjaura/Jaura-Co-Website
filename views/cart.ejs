@@ -54,10 +54,10 @@
               updateCartToEmptyState();
             }
           } else {
-            console.error("Failed to remove the item from the cart.");
+            console.error("failed to remove the item from the cart.");
           }
         } catch (error) {
-          console.error("Error removing item:", error);
+          console.error("error removing item:", error);
         }
       }
 
@@ -87,7 +87,7 @@
             }
           })
           .catch((err) => {
-            console.error("Error updating item:", err);
+            console.error("error updating item:", err);
           });
       }
       //   to update cart display when its empty
@@ -141,10 +141,10 @@
                 // redirect to Stripe checkout
                 window.location.href = session.url;
               } else {
-                console.error("Failed to retrieve session URL");
+                console.error("failed to retrieve session URL");
               }
             } catch (err) {
-              console.error("Checkout error:", err);
+              console.error("checkout error:", err);
             }
           });
         }
@@ -340,7 +340,7 @@
             }
           }
         } catch (error) {
-          console.error("Error removing item:", error);
+          console.error("error removing item:", error);
         }
       }
 
@@ -384,7 +384,7 @@
             location.reload();
           }
         } catch (error) {
-          console.error("Error updating item:", error);
+          console.error("error updating item:", error);
         }
       }
       //   update the total quanity and price on the page
@@ -437,7 +437,7 @@
                 window.location.href = session.url;
               }
             } catch (error) {
-              console.error("Checkout error:", error);
+              console.error("checkout error:", error);
             }
           });
         }

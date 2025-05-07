@@ -1,7 +1,17 @@
 import winston from "winston";
+import DailyRotateFile from "winston-daily-rotate-file";
 
 // using winston a npm library to make sure I dont share private and secret info to logs like console.logs
 // and this way application looks professional and scallable when it comes to deploying the app
+
+// to add color and timestamp to log messages
+const logFormat = winston.format.combine(
+  winston.format.colorize(),
+  winston.format.timestamp({ format: "YYYY-MM-DD HH:mm:ss" }),
+  winston.format.printf(({ level, message, timestamp }) => {
+    return `[${timestamp}] ${level}: ${message}`;
+  })
+);
 
 // create a logger instance
 const logger = winston.createLogger({
@@ -10,22 +20,28 @@ const logger = winston.createLogger({
   level: process.env.NODE_ENV === "production" ? "error" : "debug",
 
   // to define the format of log messages
-  format: winston.format.combine(
-    // to add colors
-    winston.format.colorize(),
-    // to add time
-    winston.format.timestamp({ format: "YYYY-MM-DD HH:mm:ss" }),
-    winston.format.printf(({ level, message, timestamp }) => {
-      // output
-      return `[${timestamp}] ${level}: ${message}`;
-    })
-  ),
+  format: logFormat,
   transports: [
-    // to log to console for developement
     new winston.transports.Console(),
-    // files would be found in log folder for specific error logging
-    new winston.transports.File({ filename: "logs/error.log", level: "error" }),
-    new winston.transports.File({ filename: "logs/combined.log" }),
+
+    new DailyRotateFile({
+      filename: "logs/error.log",
+      datePattern: "YYYY-MM-DD",
+      level: "error",
+      // keep the data for one day only
+      maxFiles: "1d",
+      zippedArchive: false,
+    }),
+
+    new DailyRotateFile({
+      filename: "logs/combined.log",
+      datePattern: "YYYY-MM-DD",
+      // delete after 24 hours
+      maxFiles: "1d",
+      // max size set so nothing breaks because of oversize
+      maxSize: "20m",
+      zippedArchive: false,
+    }),
   ],
 });
 

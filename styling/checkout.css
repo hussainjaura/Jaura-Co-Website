@@ -219,18 +219,19 @@ body {
 /* responsive adjustments for mobile */
 @media (max-width: 768px) {
     .nav-container {
-        flex-direction: column;
-        gap: 1rem;
+        flex-direction: row;
+        padding: 0.5rem 1rem;
     }
 
     .nav-links {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: row;
         gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .message-box {
         padding: 30px 20px;
-        margin-top: 250px;
+        margin-top: 90px;
     }
 }

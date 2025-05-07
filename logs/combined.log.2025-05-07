@@ -1187,3 +1187,25 @@
 [2025-05-07 14:11:26] [32mhttp[39m: GET /ClothingSite/images/caps3.png
 [2025-05-07 14:11:26] [32mhttp[39m: GET /ClothingSite/images/caps4.png
 [2025-05-07 14:11:26] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-07 14:27:48] [32minfo[39m: Session store initialized successfully.
+[2025-05-07 14:27:48] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-07 14:27:48] [32minfo[39m: server is running at http://localhost:3000
+[2025-05-07 14:27:48] [32minfo[39m: SESSION database connected successfully.
+[2025-05-07 14:27:48] [32minfo[39m: SESSION database connected successfully
+[2025-05-07 14:28:07] [32mhttp[39m: GET /
+[2025-05-07 14:28:07] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-07 14:28:07] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-07 14:28:07] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-07 14:28:08] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-07 14:28:08] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-07 14:28:08] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-07 14:28:09] [32mhttp[39m: GET /account
+[2025-05-07 14:28:09] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-07 14:28:10] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-07 14:28:11] [32mhttp[39m: GET /cart
+[2025-05-07 14:28:11] [32mhttp[39m: GET /login-required
+[2025-05-07 14:28:11] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
+[2025-05-07 14:28:11] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-07 14:28:12] [32mhttp[39m: GET /about
+[2025-05-07 14:28:12] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-07 14:28:12] [32mhttp[39m: GET /ClothingSite/images/main.png

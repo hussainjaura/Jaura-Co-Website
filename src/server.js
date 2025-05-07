@@ -6,6 +6,7 @@ import dbsession from "../database/dbsession.js";
 import cookieParser from "cookie-parser";
 import dotenv from "dotenv";
 import logger from "../utils/logger.js";
+import helmet from "helmet";
 
 // load environmental variables from .env file
 dotenv.config();
@@ -18,6 +19,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
+
+// used helmet to secure HTTP headers
+app.use(helmet());
 
 // middleware for JSON and URL-encoded data
 app.use(express.json());

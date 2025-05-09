@@ -168,6 +168,7 @@ body {
     background: white;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .empty-cart i {
@@ -194,7 +195,7 @@ body {
 
 .cart-content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    /* grid-template-columns: 2fr 1fr; */
     gap: 30px;
 }
 
@@ -207,6 +208,7 @@ body {
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .cart-item {
@@ -313,6 +315,7 @@ input[type="number"] {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     /* shrink to fit content */
     height: fit-content;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .cart-summary h3 {

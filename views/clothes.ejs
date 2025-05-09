@@ -11,71 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- add Font Awesome for icons-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <script>
-    async function addToCart(event, productId, name, price, imageUrl) {
-      // prevent the form from submitting
-      event.preventDefault(); 
-      // each form adds 1 item
-      const quantity = 1;
-
-      try {
-
-        const response = await fetch('/cart/add', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ productId, name, price, quantity, imageUrl }),
-        });
-
-        if (response.ok) {
-          showPopup(`${name} has been added to your cart!`, 'Added to Cart');
-          // redirect to cart after adding item
-          // window.location.href = '/cart';  // Redirect to the cart page
-        } else {
-          showPopup('Please Log In or Sign Up before adding items to cart.', 'Authentication Required!');
-        }
-      } catch (error) {
-        console.error('error adding item:', error);
-      }
-    }
-
-    // function to show the custom popup
-    function showPopup(message, headerText = "Item added to cart") {
-      const popup = document.getElementById("popup");
-      const popupMessage = popup.querySelector("p");
-      const popupHeader = document.getElementById("popup-header");
-
-      popupMessage.textContent = message;
-      // update header dynamically
-      popupHeader.textContent = headerText; 
-      // Show the popup
-      popup.style.display = "flex";
-    }
-
-
-    // function to close the popup
-    function closePopup() {
-      const popup = document.getElementById('popup');
-      // hide the popup
-      popup.style.display = 'none';
-    }
-
-    // ensure event listeners are correctly attached
-    document.addEventListener('DOMContentLoaded', () => {
-      const closeBtn = document.getElementById('popup-close');
-      const popupButton = document.getElementById('popup-button');
-
-      if (closeBtn) {
-        closeBtn.addEventListener('click', closePopup);
-      }
-
-      if (popupButton) {
-        popupButton.addEventListener('click', closePopup);
-      }
-    });
-
-  </script>
 </head>
 
 <body>
@@ -119,8 +54,13 @@
             <div class="product-details">
               <h3><%= product.name %></h3>
               <p class="price">£<%= product.price.toFixed(2) %></p>
-              <form onsubmit="addToCart(event, <%= product.id %>, '<%= product.name.replace(/'/g, "\\'") %>', <%= product.price %>, '<%= product.image.replace(/'/g, "\\'") %>')">
-                <button type="submit" class="add-to-cart-btn">
+              <form>
+                <button type="button" 
+                  class="add-to-cart-btn"
+                  data-product-id="<%= product.id %>"
+                  data-product-name="<%= product.name.replace(/'/g, "\\'") %>"
+                  data-product-price="<%= product.price %>"
+                  data-product-image="<%= product.image.replace(/'/g, "\\'") %>">
                   <i class="fas fa-shopping-cart"></i> Add to Cart
                 </button>
               </form>
@@ -173,6 +113,7 @@
       </div>
     </div>
   </footer>
+  <script src="/ClothingSite/scripts/clothes.js" defer></script>
 </body>
 
 </html>

@@ -131,6 +131,7 @@ body {
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .info-card:hover {
@@ -180,6 +181,7 @@ body {
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .contact-form h3 {
@@ -398,6 +400,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .popup-content i {

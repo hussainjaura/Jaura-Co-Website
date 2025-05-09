@@ -91,6 +91,10 @@ app.use(
   "/ClothingSite/auth",
   express.static(path.join(__dirname, "..", "auth"))
 );
+app.use(
+  "/ClothingSite/scripts",
+  express.static(path.join(__dirname, "..", "scripts"))
+);
 
 // serve favicon directly from root level
 app.use(express.static(path.join(__dirname, "..")));

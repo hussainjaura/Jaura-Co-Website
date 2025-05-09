@@ -75,8 +75,13 @@
                 <h4><%= product.name %></h4>
                 <p class="price">£<%= product.price.toFixed(2) %></p>
                 <p class="category"><i class="fas fa-tag"></i> <%= product.category %></p>
-                <form onsubmit="addToCart(event, '<%= product.id %>', '<%= product.name.replace(/'/g, "\\'") %>', <%= product.price %>, '<%= product.image.replace(/'/g, "\\'") %>')">
-                  <button type="submit" class="add-to-cart-btn">
+                <form>
+                  <button type="button" 
+                    class="add-to-cart-btn"
+                    data-product-id="<%= product.id %>"
+                    data-product-name="<%= product.name.replace(/'/g, "\\'") %>"
+                    data-product-price="<%= product.price %>"
+                    data-product-image="<%= product.image.replace(/'/g, "\\'") %>">
                     <i class="fas fa-shopping-cart"></i> Add to Cart
                   </button>
                 </form>
@@ -136,57 +141,7 @@
       </div>
     </div>
   </footer>
-
-  <script>
-    // function to add item to the cart
-    async function addToCart(event, productId, name, price, imageUrl) {
-      event.preventDefault();
-      // quantity when clicked once to add item to cart
-      const quantity = 1;
-
-      try {
-        // send a post request to server with product details
-        const response = await fetch('/cart/add', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ productId, name, price, quantity, imageUrl }),
-        });
-        // show success or ask for login if not logged in
-        if (response.ok) {
-          showPopup(`${name} has been added to your cart!`, 'Added to Cart');
-        } else {
-          showPopup('Please Log In or Sign Up before adding items to cart.', 'Authentication Required');
-        }
-      } catch (error) {
-        console.error('error adding item to cart:', error);
-      }
-    }
-    // function to show a popup notification
-    function showPopup(message, headerText = "Item added to cart") {
-      // getting DOM elements
-      const popup = document.getElementById("popup");
-      const popupMessage = popup.querySelector("p");
-      const popupHeader = document.getElementById("popup-header");
-      // set popup text and make it visible
-      popupMessage.textContent = message;
-      popupHeader.textContent = headerText;
-      popup.style.display = "flex";
-    }
-    // close popup function
-    function closePopup() {
-      document.getElementById('popup').style.display = 'none';
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      const closeBtn = document.getElementById('popup-close');
-      const popupButton = document.getElementById('popup-button');
-
-      if (closeBtn) closeBtn.addEventListener('click', closePopup);
-      if (popupButton) popupButton.addEventListener('click', closePopup);
-    });
-  </script>
+  <script src="/ClothingSite/scripts/search.js"></script>
 </body>
 
 </html>

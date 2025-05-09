@@ -1,0 +1,1630 @@
+[2025-05-09 08:38:36] [32minfo[39m: Session store initialized successfully.
+[2025-05-09 08:38:39] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-09 08:38:40] [32minfo[39m: server is running at http://localhost:3000
+[2025-05-09 08:38:40] [32minfo[39m: SESSION database connected successfully.
+[2025-05-09 08:38:40] [32minfo[39m: SESSION database connected successfully
+[2025-05-09 08:38:53] [32mhttp[39m: GET /
+[2025-05-09 08:38:55] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-09 08:38:55] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:38:56] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:38:56] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:38:56] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:38:56] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:38:59] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-09 08:39:03] [32mhttp[39m: GET /clothes
+[2025-05-09 08:39:03] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 08:39:03] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:39:03] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:39:03] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:39:03] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:39:03] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:39:04] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:39:04] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:39:04] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:39:04] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:39:04] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:39:04] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:39:04] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:39:04] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:39:04] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:39:04] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:39:05] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:39:05] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:39:05] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:39:05] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:39:05] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:39:05] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:39:05] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:39:06] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:39:06] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:39:06] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:39:06] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:39:06] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:39:06] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:39:06] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:39:06] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:39:06] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:39:06] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 08:39:10] [32mhttp[39m: GET /search
+[2025-05-09 08:39:10] [34mdebug[39m: GET /search accessed
+[2025-05-09 08:39:10] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:39:10] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:39:11] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:39:12] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:39:12] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:39:12] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:39:12] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:39:12] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:39:12] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:39:12] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:39:12] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:39:13] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:39:16] [32mhttp[39m: POST /search
+[2025-05-09 08:39:16] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 08:39:16] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:39:16] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:39:16] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:39:16] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:39:16] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:39:16] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 08:39:19] [32mhttp[39m: POST /search
+[2025-05-09 08:39:20] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 08:39:20] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:39:20] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:39:20] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:39:20] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:39:20] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:39:20] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 08:39:21] [32mhttp[39m: POST /cart/add
+[2025-05-09 08:39:24] [32mhttp[39m: GET /about
+[2025-05-09 08:39:25] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 08:39:25] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:39:26] [32mhttp[39m: GET /cart
+[2025-05-09 08:39:26] [32mhttp[39m: GET /login-required
+[2025-05-09 08:39:26] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
+[2025-05-09 08:39:26] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:39:27] [32mhttp[39m: GET /account
+[2025-05-09 08:39:27] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 08:39:27] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 08:39:27] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:39:28] [32mhttp[39m: GET /session
+[2025-05-09 08:39:28] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T08:38:54.016Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-09 08:39:40] [32mhttp[39m: POST /login
+[2025-05-09 08:39:40] [34mdebug[39m: login credentials received: {"email":"kuta@gmail.com"}
+[2025-05-09 08:39:41] [34mdebug[39m: password match: true
+[2025-05-09 08:39:41] [34mdebug[39m: session data set: {"id":112,"username":"kuta"}
+[2025-05-09 08:39:44] [32mhttp[39m: GET /account
+[2025-05-09 08:39:44] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 08:39:44] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 08:39:44] [32mhttp[39m: GET /session
+[2025-05-09 08:39:44] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T08:39:41.184Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 08:39:44] [34mdebug[39m: session ID from req.sessionID: RXxC3s8O61JyshSPz2q01k9rsCn1FkY9
+[2025-05-09 08:39:44] [34mdebug[39m: session data from DB: [{"session_id":"RXxC3s8O61JyshSPz2q01k9rsCn1FkY9","expires":1746779984,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T08:39:41.184Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 08:39:47] [32mhttp[39m: GET /cart
+[2025-05-09 08:39:47] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 08:39:47] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:39:47] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:39:47] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:39:48] [32mhttp[39m: GET /clothes
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:39:49] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:39:50] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:39:51] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:39:51] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:39:51] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:39:51] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:39:51] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:39:51] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:39:51] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:39:51] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:39:51] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 08:39:54] [32mhttp[39m: POST /cart/add
+[2025-05-09 08:39:54] [34mdebug[39m: added new item to cart: productId 2
+[2025-05-09 08:39:58] [32mhttp[39m: POST /cart/add
+[2025-05-09 08:39:58] [34mdebug[39m: added new item to cart: productId 1
+[2025-05-09 08:40:00] [32mhttp[39m: GET /cart
+[2025-05-09 08:40:00] [34mdebug[39m: cart items for user 112: [{"id":154,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-09T07:39:54.000Z","updated_at":"2025-05-09T07:39:54.000Z"},{"id":155,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-09T07:39:58.000Z","updated_at":"2025-05-09T07:39:58.000Z"}]
+[2025-05-09 08:40:01] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:40:01] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:40:01] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:40:01] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:40:01] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:40:29] [32mhttp[39m: GET /cart
+[2025-05-09 08:40:29] [34mdebug[39m: cart items for user 112: [{"id":154,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-09T07:39:54.000Z","updated_at":"2025-05-09T07:39:54.000Z"},{"id":155,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-09T07:39:58.000Z","updated_at":"2025-05-09T07:39:58.000Z"}]
+[2025-05-09 08:40:29] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:40:30] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:40:30] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:40:30] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:40:30] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:40:30] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 08:40:33] [32mhttp[39m: GET /clothes
+[2025-05-09 08:40:34] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 08:40:34] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:40:34] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:40:34] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:40:34] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:40:34] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:40:34] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:40:35] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:40:35] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:40:35] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:40:35] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:40:36] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:40:37] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:40:37] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:40:37] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:40:37] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:40:37] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:40:38] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:40:39] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:40:39] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:40:39] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:40:39] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:40:39] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 08:40:39] [32mhttp[39m: POST /cart/add
+[2025-05-09 08:40:39] [34mdebug[39m: updated quantity for product 1 to 2
+[2025-05-09 08:40:42] [32mhttp[39m: GET /search
+[2025-05-09 08:40:43] [34mdebug[39m: GET /search accessed
+[2025-05-09 08:40:43] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 08:40:43] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:40:43] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:40:43] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:40:43] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:40:43] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:40:43] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 08:40:43] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:40:44] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:40:44] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:40:44] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:40:44] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:40:44] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:40:44] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:40:45] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:40:45] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:40:45] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:40:45] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:40:45] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:40:45] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:40:45] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:40:46] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:40:46] [32mhttp[39m: POST /cart/add
+[2025-05-09 08:40:46] [34mdebug[39m: added new item to cart: productId 9
+[2025-05-09 08:40:50] [32mhttp[39m: GET /cart
+[2025-05-09 08:40:50] [34mdebug[39m: cart items for user 112: [{"id":154,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-09T07:39:54.000Z","updated_at":"2025-05-09T07:39:54.000Z"},{"id":155,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":2,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-09T07:39:58.000Z","updated_at":"2025-05-09T07:40:39.000Z"},{"id":156,"user_id":112,"product_id":9,"name":"Fleece Hoodie Jacket","price":"90.00","quantity":1,"image_url":"/ClothingSite/images/jackets3.png","created_at":"2025-05-09T07:40:46.000Z","updated_at":"2025-05-09T07:40:46.000Z"}]
+[2025-05-09 08:40:50] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:40:50] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:40:50] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:40:50] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:40:51] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:40:51] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:40:52] [32mhttp[39m: POST /checkout
+[2025-05-09 08:40:52] [34mdebug[39m: checkout router hit!
+[2025-05-09 08:40:53] [34mdebug[39m: received cart items: {"cartItems":[{"product_id":"2","name":"Adidas Ultra Boost","price":15000,"quantity":1},{"product_id":"1","name":"Nike Air Max","price":12000,"quantity":2},{"product_id":"9","name":"Fleece Hoodie Jacket","price":9000,"quantity":1}]}
+[2025-05-09 08:41:45] [32mhttp[39m: GET /checkout/success
+[2025-05-09 08:41:45] [34mdebug[39m: session received: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T08:39:41.184Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 08:41:45] [34mdebug[39m: user session data: {"id":112,"username":"kuta"}
+[2025-05-09 08:41:45] [34mdebug[39m: cleared cart for user ID: 112
+[2025-05-09 08:41:45] [32mhttp[39m: GET /ClothingSite/styling/checkout.css
+[2025-05-09 08:41:45] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:41:48] [32mhttp[39m: GET /
+[2025-05-09 08:41:48] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-09 08:41:48] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:41:48] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:41:48] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:41:48] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:41:48] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:41:52] [32mhttp[39m: GET /search?category=Shoes
+[2025-05-09 08:41:52] [34mdebug[39m: GET /search accessed
+[2025-05-09 08:41:52] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 08:41:52] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:41:52] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:41:52] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:41:53] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:41:54] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:41:54] [32mhttp[39m: POST /cart/add
+[2025-05-09 08:41:54] [34mdebug[39m: added new item to cart: productId 1
+[2025-05-09 08:41:56] [32mhttp[39m: GET /cart
+[2025-05-09 08:41:56] [34mdebug[39m: cart items for user 112: [{"id":157,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-09T07:41:54.000Z","updated_at":"2025-05-09T07:41:54.000Z"}]
+[2025-05-09 08:41:57] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:41:57] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:41:57] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:41:57] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:41:59] [32mhttp[39m: POST /cart/remove
+[2025-05-09 08:41:59] [34mdebug[39m: removed product 1 from cart
+[2025-05-09 08:43:01] [32mhttp[39m: GET /cart
+[2025-05-09 08:43:01] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 08:43:02] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:43:02] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:43:02] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:43:03] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 08:43:20] [32mhttp[39m: GET /clothes
+[2025-05-09 08:43:20] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 08:43:20] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:43:20] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:43:20] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:43:20] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:43:21] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:43:22] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:43:22] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 08:43:22] [32mhttp[39m: POST /cart/add
+[2025-05-09 08:43:22] [34mdebug[39m: added new item to cart: productId 1
+[2025-05-09 08:43:23] [32mhttp[39m: GET /cart
+[2025-05-09 08:43:23] [34mdebug[39m: cart items for user 112: [{"id":158,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-09T07:43:22.000Z","updated_at":"2025-05-09T07:43:22.000Z"}]
+[2025-05-09 08:43:23] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:43:23] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:43:23] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:43:24] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:43:25] [32mhttp[39m: POST /cart/remove
+[2025-05-09 08:43:25] [34mdebug[39m: removed product 1 from cart
+[2025-05-09 08:43:44] [32mhttp[39m: GET /cart
+[2025-05-09 08:43:44] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 08:43:44] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:43:44] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:43:44] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 08:44:12] [32mhttp[39m: GET /clothes
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:44:12] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:44:13] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 08:44:16] [32mhttp[39m: POST /cart/add
+[2025-05-09 08:44:16] [34mdebug[39m: added new item to cart: productId 1
+[2025-05-09 08:44:17] [32mhttp[39m: GET /cart
+[2025-05-09 08:44:18] [34mdebug[39m: cart items for user 112: [{"id":159,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-09T07:44:16.000Z","updated_at":"2025-05-09T07:44:16.000Z"}]
+[2025-05-09 08:44:18] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:44:18] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:44:18] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:44:18] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:44:20] [32mhttp[39m: POST /cart/remove
+[2025-05-09 08:44:20] [34mdebug[39m: removed product 1 from cart
+[2025-05-09 08:48:01] [32minfo[39m: Session store initialized successfully.
+[2025-05-09 08:48:02] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-09 08:48:02] [32minfo[39m: server is running at http://localhost:3000
+[2025-05-09 08:48:02] [32minfo[39m: SESSION database connected successfully.
+[2025-05-09 08:48:02] [32minfo[39m: SESSION database connected successfully
+[2025-05-09 08:48:06] [32mhttp[39m: GET /cart
+[2025-05-09 08:48:06] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 08:48:06] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:48:06] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:48:06] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:48:07] [32mhttp[39m: GET /cart
+[2025-05-09 08:48:07] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 08:48:07] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:48:07] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:48:07] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:48:08] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 08:48:10] [32mhttp[39m: GET /clothes
+[2025-05-09 08:48:10] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:48:11] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 08:48:13] [32mhttp[39m: POST /cart/add
+[2025-05-09 08:48:13] [34mdebug[39m: added new item to cart: productId 1
+[2025-05-09 08:48:15] [32mhttp[39m: GET /cart
+[2025-05-09 08:48:15] [34mdebug[39m: cart items for user 112: [{"id":160,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-09T07:48:13.000Z","updated_at":"2025-05-09T07:48:13.000Z"}]
+[2025-05-09 08:48:15] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:48:15] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:48:15] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:48:15] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:48:17] [32mhttp[39m: POST /cart/remove
+[2025-05-09 08:48:17] [34mdebug[39m: removed product 1 from cart
+[2025-05-09 08:48:21] [32mhttp[39m: GET /cart
+[2025-05-09 08:48:21] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 08:48:21] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:48:21] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:48:21] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 08:48:24] [32mhttp[39m: GET /cart
+[2025-05-09 08:48:24] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 08:48:25] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:48:25] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:48:25] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:48:25] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 08:50:02] [32minfo[39m: Session store initialized successfully.
+[2025-05-09 08:50:04] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-09 08:50:04] [32minfo[39m: server is running at http://localhost:3000
+[2025-05-09 08:50:04] [32minfo[39m: SESSION database connected successfully.
+[2025-05-09 08:50:04] [32minfo[39m: SESSION database connected successfully
+[2025-05-09 08:50:05] [32mhttp[39m: GET /cart
+[2025-05-09 08:50:05] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 08:50:05] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:50:05] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:50:06] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:50:06] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 08:50:10] [32mhttp[39m: GET /
+[2025-05-09 08:50:10] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-09 08:50:10] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:50:10] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:50:10] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:50:10] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:50:10] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:50:12] [32mhttp[39m: GET /cart
+[2025-05-09 08:50:12] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 08:50:12] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:50:12] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:50:12] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:50:14] [32mhttp[39m: GET /clothes
+[2025-05-09 08:50:14] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 08:50:14] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:50:14] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:50:14] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:50:14] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:50:14] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:50:15] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:50:16] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:50:16] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 08:50:17] [32mhttp[39m: POST /cart/add
+[2025-05-09 08:50:17] [34mdebug[39m: added new item to cart: productId 2
+[2025-05-09 08:50:18] [32mhttp[39m: GET /account
+[2025-05-09 08:50:18] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 08:50:18] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 08:50:18] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:50:19] [32mhttp[39m: GET /session
+[2025-05-09 08:50:19] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T08:39:41.184Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 08:50:19] [34mdebug[39m: session ID from req.sessionID: RXxC3s8O61JyshSPz2q01k9rsCn1FkY9
+[2025-05-09 08:50:19] [34mdebug[39m: session data from DB: [{"session_id":"RXxC3s8O61JyshSPz2q01k9rsCn1FkY9","expires":1746780619,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T08:39:41.184Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 08:50:19] [32mhttp[39m: GET /cart
+[2025-05-09 08:50:19] [34mdebug[39m: cart items for user 112: [{"id":161,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-09T07:50:17.000Z","updated_at":"2025-05-09T07:50:17.000Z"}]
+[2025-05-09 08:50:19] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:50:19] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:50:19] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:50:28] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:50:30] [32mhttp[39m: POST /cart/remove
+[2025-05-09 08:50:30] [34mdebug[39m: removed product 2 from cart
+[2025-05-09 08:50:33] [32mhttp[39m: GET /clothes
+[2025-05-09 08:50:33] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 08:50:33] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:50:33] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:50:33] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:50:33] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:50:33] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:50:33] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:50:33] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:50:34] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:50:35] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:50:35] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:50:35] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:50:35] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:50:35] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:50:35] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:50:35] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 08:50:40] [32mhttp[39m: GET /about
+[2025-05-09 08:50:40] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 08:50:40] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:50:43] [32mhttp[39m: GET /contact
+[2025-05-09 08:50:43] [32mhttp[39m: GET /ClothingSite/styling/contact.css
+[2025-05-09 08:50:43] [32mhttp[39m: GET /ClothingSite/scripts/contact.js
+[2025-05-09 08:50:43] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:50:57] [32mhttp[39m: GET /account
+[2025-05-09 08:50:58] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 08:50:58] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 08:50:58] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:50:58] [32mhttp[39m: GET /session
+[2025-05-09 08:50:58] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T08:39:41.184Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 08:50:58] [34mdebug[39m: session ID from req.sessionID: RXxC3s8O61JyshSPz2q01k9rsCn1FkY9
+[2025-05-09 08:50:58] [34mdebug[39m: session data from DB: [{"session_id":"RXxC3s8O61JyshSPz2q01k9rsCn1FkY9","expires":1746780658,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T08:39:41.184Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 08:51:01] [32mhttp[39m: GET /
+[2025-05-09 08:51:02] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-09 08:51:02] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:51:02] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:51:02] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:51:02] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:51:02] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:51:07] [32mhttp[39m: GET /?
+[2025-05-09 08:51:07] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-09 08:51:07] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:51:07] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:51:07] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:51:07] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:51:07] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:51:09] [32mhttp[39m: GET /search
+[2025-05-09 08:51:09] [34mdebug[39m: GET /search accessed
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 08:51:10] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 08:51:11] [32mhttp[39m: GET /cart
+[2025-05-09 08:51:11] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 08:51:11] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:21:49] [32minfo[39m: Session store initialized successfully.
+[2025-05-09 10:21:50] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-09 10:21:50] [32minfo[39m: server is running at http://localhost:3000
+[2025-05-09 10:21:50] [32minfo[39m: SESSION database connected successfully.
+[2025-05-09 10:21:50] [32minfo[39m: SESSION database connected successfully
+[2025-05-09 10:21:55] [32mhttp[39m: GET /cart
+[2025-05-09 10:21:55] [32mhttp[39m: GET /login-required
+[2025-05-09 10:21:55] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
+[2025-05-09 10:21:55] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:21:56] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:21:57] [32mhttp[39m: GET /account
+[2025-05-09 10:21:58] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:21:58] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:21:58] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:21:58] [32mhttp[39m: GET /session
+[2025-05-09 10:21:58] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:21:55.625Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-09 10:22:17] [32mhttp[39m: GET /cart
+[2025-05-09 10:22:17] [32mhttp[39m: GET /login-required
+[2025-05-09 10:22:18] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
+[2025-05-09 10:22:18] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:22:21] [32mhttp[39m: GET /account
+[2025-05-09 10:22:21] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:22:21] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:22:21] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:22:21] [32mhttp[39m: GET /session
+[2025-05-09 10:22:21] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:21:55.625Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-09 10:22:30] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:25:24] [32minfo[39m: Session store initialized successfully.
+[2025-05-09 10:25:25] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-09 10:25:25] [32minfo[39m: server is running at http://localhost:3000
+[2025-05-09 10:25:25] [32minfo[39m: SESSION database connected successfully.
+[2025-05-09 10:25:25] [32minfo[39m: SESSION database connected successfully
+[2025-05-09 10:25:39] [32mhttp[39m: GET /account
+[2025-05-09 10:25:39] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:25:39] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:25:39] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:25:40] [32mhttp[39m: GET /session
+[2025-05-09 10:25:40] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:21:55.625Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-09 10:25:40] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:25:59] [32mhttp[39m: GET /account
+[2025-05-09 10:25:59] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:25:59] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:25:59] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:25:59] [32mhttp[39m: GET /session
+[2025-05-09 10:25:59] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:21:55.625Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-09 10:25:59] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:26:09] [32mhttp[39m: GET /account
+[2025-05-09 10:26:09] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:26:09] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:26:09] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:26:09] [32mhttp[39m: GET /session
+[2025-05-09 10:26:09] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:21:55.625Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-09 10:26:10] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:26:22] [32mhttp[39m: GET /account
+[2025-05-09 10:26:22] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:26:22] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:26:22] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:26:22] [32mhttp[39m: GET /session
+[2025-05-09 10:26:22] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:21:55.625Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-09 10:26:23] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:26:40] [32mhttp[39m: GET /account
+[2025-05-09 10:26:40] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:26:40] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:26:40] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:26:40] [32mhttp[39m: GET /session
+[2025-05-09 10:26:40] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:26:40] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:21:55.625Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-09 10:26:41] [32mhttp[39m: GET /account
+[2025-05-09 10:26:41] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:26:41] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:26:41] [32mhttp[39m: GET /session
+[2025-05-09 10:26:41] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:26:41] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:21:55.625Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-09 10:26:48] [32mhttp[39m: GET /cart
+[2025-05-09 10:26:48] [32mhttp[39m: GET /login-required
+[2025-05-09 10:26:48] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
+[2025-05-09 10:26:48] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:26:49] [32mhttp[39m: GET /account
+[2025-05-09 10:26:49] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:26:49] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:26:49] [32mhttp[39m: GET /session
+[2025-05-09 10:26:49] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:21:55.625Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-09 10:26:57] [32mhttp[39m: POST /login
+[2025-05-09 10:26:57] [34mdebug[39m: login credentials received: {"email":"kuta@gmail.com"}
+[2025-05-09 10:26:57] [34mdebug[39m: password match: true
+[2025-05-09 10:26:57] [34mdebug[39m: session data set: {"id":112,"username":"kuta"}
+[2025-05-09 10:27:00] [32mhttp[39m: GET /account
+[2025-05-09 10:27:01] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:27:01] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:27:01] [32mhttp[39m: GET /session
+[2025-05-09 10:27:01] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:27:01] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:27:01] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746786421,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:27:05] [32mhttp[39m: GET /cart
+[2025-05-09 10:27:05] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:27:05] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:27:05] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:27:05] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:27:12] [32mhttp[39m: GET /about
+[2025-05-09 10:27:12] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:27:12] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /clothes
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:27:13] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:27:16] [32mhttp[39m: GET /about
+[2025-05-09 10:27:16] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:27:17] [32mhttp[39m: GET /cart
+[2025-05-09 10:27:17] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:27:17] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:27:17] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:28:20] [32mhttp[39m: GET /search
+[2025-05-09 10:28:20] [34mdebug[39m: GET /search accessed
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:28:20] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:28:21] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:28:21] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:28:21] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:28:21] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:28:21] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:28:21] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:28:21] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /search
+[2025-05-09 10:30:50] [34mdebug[39m: GET /search accessed
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:30:50] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:30:51] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:30:51] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:30:51] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:30:51] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:30:51] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:30:51] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:30:51] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:30:51] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:30:54] [32mhttp[39m: GET /clothes
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:30:55] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:30:58] [32mhttp[39m: GET /about
+[2025-05-09 10:30:58] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:30:58] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:31:02] [32mhttp[39m: GET /cart
+[2025-05-09 10:31:02] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:31:02] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:31:02] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:31:02] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:31:08] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:31:12] [32mhttp[39m: GET /account
+[2025-05-09 10:31:12] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:31:12] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:31:13] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:31:13] [32mhttp[39m: GET /session
+[2025-05-09 10:31:13] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:31:13] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:31:13] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746786673,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:31:24] [32mhttp[39m: GET /cart
+[2025-05-09 10:31:24] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:31:25] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:31:25] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:31:25] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:35:33] [32minfo[39m: Session store initialized successfully.
+[2025-05-09 10:35:34] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-09 10:35:34] [32minfo[39m: server is running at http://localhost:3000
+[2025-05-09 10:35:34] [32minfo[39m: SESSION database connected successfully.
+[2025-05-09 10:35:34] [32minfo[39m: SESSION database connected successfully
+[2025-05-09 10:35:35] [32mhttp[39m: GET /
+[2025-05-09 10:35:35] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-09 10:35:35] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:35:35] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:35:35] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:35:35] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:35:36] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:35:36] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:36:32] [32mhttp[39m: GET /
+[2025-05-09 10:36:32] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-09 10:36:32] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:36:32] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:36:32] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:36:33] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:36:33] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:36:33] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:36:50] [32mhttp[39m: GET /search
+[2025-05-09 10:36:50] [34mdebug[39m: GET /search accessed
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:36:50] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:36:53] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 10:37:28] [32mhttp[39m: GET /search
+[2025-05-09 10:37:28] [34mdebug[39m: GET /search accessed
+[2025-05-09 10:37:29] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 10:37:29] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:37:29] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:37:29] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:37:29] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:37:29] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:37:29] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:37:30] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:37:31] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:37:31] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:37:31] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:37:31] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:37:41] [32mhttp[39m: GET /search
+[2025-05-09 10:37:41] [34mdebug[39m: GET /search accessed
+[2025-05-09 10:37:42] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 10:37:42] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:37:42] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:37:42] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:37:42] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:37:42] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 10:37:42] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:37:43] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:37:57] [32mhttp[39m: POST /search
+[2025-05-09 10:37:57] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 10:37:57] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:37:57] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:37:58] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:37:59] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:37:59] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:37:59] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:37:59] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:37:59] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:37:59] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:37:59] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:37:59] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:38:00] [32mhttp[39m: POST /search
+[2025-05-09 10:38:00] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-09 10:38:00] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:38:00] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:38:00] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:38:00] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:38:00] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:38:00] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-09 10:38:02] [32mhttp[39m: POST /cart/add
+[2025-05-09 10:38:02] [34mdebug[39m: added new item to cart: productId 31
+[2025-05-09 10:38:07] [32mhttp[39m: GET /account
+[2025-05-09 10:38:07] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:38:07] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:38:07] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:38:07] [32mhttp[39m: GET /session
+[2025-05-09 10:38:07] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:38:07] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:38:07] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746787088,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:38:09] [32mhttp[39m: GET /clothes
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:38:09] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:38:10] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:38:12] [32mhttp[39m: GET /about
+[2025-05-09 10:38:13] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:38:13] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:38:38] [32mhttp[39m: GET /about
+[2025-05-09 10:38:38] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:38:39] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:38:39] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:39:00] [32mhttp[39m: GET /about
+[2025-05-09 10:39:01] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:39:01] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:39:01] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:39:20] [32mhttp[39m: GET /about
+[2025-05-09 10:39:20] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:39:20] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:39:20] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:39:36] [32mhttp[39m: GET /about
+[2025-05-09 10:39:36] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:39:36] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:39:36] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:39:42] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:40:31] [32mhttp[39m: GET /about
+[2025-05-09 10:40:31] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:40:32] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:40:32] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:40:45] [32mhttp[39m: GET /cart
+[2025-05-09 10:40:45] [34mdebug[39m: cart items for user 112: [{"id":162,"user_id":112,"product_id":31,"name":"Snapback Cap","price":"25.00","quantity":1,"image_url":"/ClothingSite/images/caps6.png","created_at":"2025-05-09T09:38:02.000Z","updated_at":"2025-05-09T09:38:02.000Z"}]
+[2025-05-09 10:40:45] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:40:45] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:40:45] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:40:45] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:40:51] [32mhttp[39m: GET /account
+[2025-05-09 10:40:51] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:40:51] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:40:51] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:40:52] [32mhttp[39m: GET /session
+[2025-05-09 10:40:52] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:40:52] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:40:52] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746787252,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:41:32] [32mhttp[39m: GET /account
+[2025-05-09 10:41:32] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:41:32] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:41:32] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:41:32] [32mhttp[39m: GET /session
+[2025-05-09 10:41:32] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:41:32] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:41:33] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746787293,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:41:33] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:41:48] [32mhttp[39m: GET /account
+[2025-05-09 10:41:48] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:41:48] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:41:48] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:41:48] [32mhttp[39m: GET /session
+[2025-05-09 10:41:49] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:41:49] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:41:49] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:41:49] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746787309,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:42:20] [32mhttp[39m: GET /cart
+[2025-05-09 10:42:20] [34mdebug[39m: cart items for user 112: [{"id":162,"user_id":112,"product_id":31,"name":"Snapback Cap","price":"25.00","quantity":1,"image_url":"/ClothingSite/images/caps6.png","created_at":"2025-05-09T09:38:02.000Z","updated_at":"2025-05-09T09:38:02.000Z"}]
+[2025-05-09 10:42:20] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:42:20] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:42:20] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:42:20] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:42:22] [32mhttp[39m: POST /cart/remove
+[2025-05-09 10:42:22] [34mdebug[39m: removed product 31 from cart
+[2025-05-09 10:42:31] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:44:29] [32mhttp[39m: GET /cart
+[2025-05-09 10:44:29] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:44:29] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:44:29] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:44:29] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:44:29] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:44:31] [32mhttp[39m: GET /cart
+[2025-05-09 10:44:31] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:44:31] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:44:31] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:44:32] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:44:37] [32mhttp[39m: GET /cart
+[2025-05-09 10:44:37] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:44:37] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:44:37] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:44:37] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:44:37] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:44:38] [32mhttp[39m: GET /clothes
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:44:39] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:44:39] [32mhttp[39m: GET /about
+[2025-05-09 10:44:40] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:44:40] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:44:40] [32mhttp[39m: GET /cart
+[2025-05-09 10:44:40] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:44:40] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:44:40] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:44:42] [32mhttp[39m: GET /clothes
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:44:42] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:44:43] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:44:47] [32mhttp[39m: GET /account
+[2025-05-09 10:44:48] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:44:48] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:44:48] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:44:48] [32mhttp[39m: GET /session
+[2025-05-09 10:44:48] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:44:48] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:44:48] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746787488,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:44:51] [32mhttp[39m: GET /cart
+[2025-05-09 10:44:51] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:44:51] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:44:51] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:44:52] [32mhttp[39m: GET /clothes
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:44:52] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:44:53] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:44:53] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:44:53] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:44:53] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:44:53] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:44:53] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:44:53] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:44:53] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:44:56] [32mhttp[39m: GET /about
+[2025-05-09 10:44:56] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:44:57] [32mhttp[39m: GET /cart
+[2025-05-09 10:44:57] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:44:57] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:44:57] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:44:58] [32mhttp[39m: GET /clothes
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:44:58] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:44:59] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:45:00] [32mhttp[39m: GET /cart
+[2025-05-09 10:45:00] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:45:00] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:45:00] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:45:05] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:46:15] [32mhttp[39m: GET /cart
+[2025-05-09 10:46:15] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:46:15] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:46:15] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:46:15] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:46:15] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:46:21] [32mhttp[39m: GET /account
+[2025-05-09 10:46:21] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:46:21] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:46:21] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:46:22] [32mhttp[39m: GET /session
+[2025-05-09 10:46:22] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:46:22] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:46:22] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746787582,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:46:24] [32mhttp[39m: GET /cart
+[2025-05-09 10:46:24] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:46:24] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:46:24] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:46:25] [32mhttp[39m: GET /about
+[2025-05-09 10:46:26] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:46:26] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:46:31] [32mhttp[39m: GET /contact
+[2025-05-09 10:46:31] [32mhttp[39m: GET /ClothingSite/styling/contact.css
+[2025-05-09 10:46:31] [32mhttp[39m: GET /ClothingSite/scripts/contact.js
+[2025-05-09 10:46:31] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:46:35] [32mhttp[39m: GET /account
+[2025-05-09 10:46:36] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:46:36] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:46:36] [32mhttp[39m: GET /session
+[2025-05-09 10:46:36] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:46:36] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:46:36] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746787596,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:46:38] [32mhttp[39m: GET /cart
+[2025-05-09 10:46:38] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:46:38] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:46:38] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:46:39] [32mhttp[39m: GET /about
+[2025-05-09 10:46:39] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:46:39] [32mhttp[39m: GET /account
+[2025-05-09 10:46:40] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:46:40] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:46:40] [32mhttp[39m: GET /session
+[2025-05-09 10:46:40] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:46:40] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:46:40] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746787600,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:46:43] [32mhttp[39m: GET /clothes
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:46:43] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:46:44] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:46:45] [32mhttp[39m: POST /cart/add
+[2025-05-09 10:46:45] [34mdebug[39m: added new item to cart: productId 2
+[2025-05-09 10:46:47] [32mhttp[39m: GET /cart
+[2025-05-09 10:46:47] [34mdebug[39m: cart items for user 112: [{"id":163,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-09T09:46:45.000Z","updated_at":"2025-05-09T09:46:45.000Z"}]
+[2025-05-09 10:46:47] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:46:47] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:46:47] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:46:49] [32mhttp[39m: POST /cart/remove
+[2025-05-09 10:46:49] [34mdebug[39m: removed product 2 from cart
+[2025-05-09 10:47:03] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:47:28] [32mhttp[39m: GET /cart
+[2025-05-09 10:47:29] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:47:29] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:47:29] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:47:29] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:47:29] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-09 10:47:31] [32mhttp[39m: GET /about
+[2025-05-09 10:47:31] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-09 10:47:31] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /clothes
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:47:36] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:47:37] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:47:37] [32mhttp[39m: POST /cart/add
+[2025-05-09 10:47:37] [34mdebug[39m: added new item to cart: productId 3
+[2025-05-09 10:47:39] [32mhttp[39m: GET /cart
+[2025-05-09 10:47:39] [34mdebug[39m: cart items for user 112: [{"id":164,"user_id":112,"product_id":3,"name":"Puma RS-X","price":"130.00","quantity":1,"image_url":"/ClothingSite/images/shoes3.png","created_at":"2025-05-09T09:47:37.000Z","updated_at":"2025-05-09T09:47:37.000Z"}]
+[2025-05-09 10:47:39] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:47:39] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:47:39] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:47:39] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:47:46] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:48:03] [32mhttp[39m: POST /cart/remove
+[2025-05-09 10:48:03] [34mdebug[39m: removed product 3 from cart
+[2025-05-09 10:48:06] [32mhttp[39m: GET /clothes
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:48:06] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:48:07] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:48:09] [32mhttp[39m: GET /account
+[2025-05-09 10:48:10] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-09 10:48:10] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-09 10:48:10] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:48:10] [32mhttp[39m: GET /session
+[2025-05-09 10:48:10] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-09T10:26:57.514Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-09 10:48:10] [34mdebug[39m: session ID from req.sessionID: RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78
+[2025-05-09 10:48:10] [34mdebug[39m: session data from DB: [{"session_id":"RZVf65MPtN5888_oOPeK8HLkQ9ZjGO78","expires":1746787690,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-09T10:26:57.514Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-09 10:48:12] [32mhttp[39m: GET /cart
+[2025-05-09 10:48:12] [34mdebug[39m: cart items for user 112: []
+[2025-05-09 10:48:12] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:48:12] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:48:12] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /clothes
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-09 10:48:15] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-09 10:48:17] [32mhttp[39m: POST /cart/add
+[2025-05-09 10:48:17] [34mdebug[39m: added new item to cart: productId 3
+[2025-05-09 10:48:18] [32mhttp[39m: GET /cart
+[2025-05-09 10:48:18] [34mdebug[39m: cart items for user 112: [{"id":165,"user_id":112,"product_id":3,"name":"Puma RS-X","price":"130.00","quantity":1,"image_url":"/ClothingSite/images/shoes3.png","created_at":"2025-05-09T09:48:17.000Z","updated_at":"2025-05-09T09:48:17.000Z"}]
+[2025-05-09 10:48:18] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-09 10:48:18] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-09 10:48:18] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-09 10:48:22] [32mhttp[39m: POST /cart/remove
+[2025-05-09 10:48:22] [34mdebug[39m: removed product 3 from cart

@@ -16,140 +16,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <script>
-      // for dynamic cart item removal
-      async function removeItem(productId) {
-        try {
-          const response = await fetch("/cart/remove", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ productId }),
-          });
-
-          if (response.ok) {
-            // remove the item from the DOM
-            const cartItem = document.getElementById(`cart-item-${productId}`);
-            if (cartItem) cartItem.remove();
-
-            // update total items and price dynamically
-            const totalItemsElem = document.getElementById("total-items");
-            const totalPriceElem = document.getElementById("total-price");
-
-            const itemQuantity = parseInt(cartItem.dataset.quantity);
-            const itemPrice = parseFloat(cartItem.dataset.price);
-
-            const currentTotalItems = parseInt(totalItemsElem.textContent);
-            const currentTotalPrice = parseFloat(totalPriceElem.textContent);
-
-            const newTotalItems = currentTotalItems - itemQuantity;
-            const newTotalPrice = currentTotalPrice - itemPrice * itemQuantity;
-
-            totalItemsElem.textContent = newTotalItems;
-            totalPriceElem.textContent = newTotalPrice.toFixed(2);
-
-            // check if the cart is now empty
-            if (newTotalItems === 0) {
-              updateCartToEmptyState();
-            }
-          } else {
-            console.error("failed to remove the item from the cart.");
-          }
-        } catch (error) {
-          console.error("error removing item:", error);
-        }
-      }
-
-      function updateItem(productId, quantity) {
-        // ensuring the entered quantity is valid
-        if (quantity < 1) {
-          alert("Quantity must be at least 1.");
-          return;
-        }
-
-        fetch("/cart/update", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            productId: productId,
-            quantity: parseInt(quantity, 10),
-          }),
-        })
-          .then((response) => response.json())
-          .then((data) => {
-            if (data.message) {
-              location.reload();
-            } else if (data.error) {
-              console.error(data.error);
-            }
-          })
-          .catch((err) => {
-            console.error("error updating item:", err);
-          });
-      }
-      //   to update cart display when its empty
-      function updateCartToEmptyState() {
-        const cartContainer = document.querySelector(".cart-items");
-        const cartSummary = document.querySelector(".cart-summary");
-        // clear the cart items area
-        if (cartContainer) cartContainer.innerHTML = "";
-        if (cartSummary)
-          cartSummary.innerHTML = `
-                <div class="empty-cart-message">
-                    <p>Your cart is currently empty. <a href="/clothes" class="continue-shopping-link">Continue shopping</a>.</p>
-                </div>
-            `;
-      }
-      //   wait for the page to fully load
-      document.addEventListener("DOMContentLoaded", () => {
-        const checkoutButton = document.getElementById("checkout-button");
-
-        if (checkoutButton) {
-          checkoutButton.addEventListener("click", async (e) => {
-            // prevent from page reload
-            e.preventDefault();
-
-            // collect items in the array
-            const cartItems = [];
-            document.querySelectorAll(".cart-item").forEach((item) => {
-              cartItems.push({
-                product_id: item.id.replace("cart-item-", ""),
-                name: item.querySelector("h3").textContent,
-                price: parseFloat(item.dataset.price) * 100, // Convert to pence
-                quantity: parseInt(item.dataset.quantity, 10),
-              });
-            });
-            // if no items show alert
-            if (cartItems.length === 0) {
-              alert("Your cart is empty!");
-              return;
-            }
-
-            try {
-              const response = await fetch("/checkout", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                // sent cart data
-                body: JSON.stringify({ cartItems }),
-              });
-
-              const session = await response.json();
-              if (session.url) {
-                // redirect to Stripe checkout
-                window.location.href = session.url;
-              } else {
-                console.error("failed to retrieve session URL");
-              }
-            } catch (err) {
-              console.error("checkout error:", err);
-            }
-          });
-        }
-      });
-    </script>
   </head>
 
   <body>
@@ -227,9 +93,9 @@
                   <label for="quantity-<%= item.product_id %>">Quantity:</label>
                   <div class="quantity-wrapper">
                     <button
-                      class="quantity-btn"
-                      onclick="updateQuantity('<%= item.product_id %>', 'decrease')"
-                    >
+                      class="quantity-btn decrease-btn"
+                      data-product-id="<%= item.product_id %>"
+                      data-action="decrease">
                       -
                     </button>
                     <input
@@ -238,12 +104,13 @@
                       min="1"
                       max="100"
                       value="<%= item.quantity %>"
-                      onchange="updateItem('<%= item.product_id %>', this.value)"
+                      data-product-id="<%= item.product_id %>"
+                      class="quantity-input"
                     />
                     <button
-                      class="quantity-btn"
-                      onclick="updateQuantity('<%= item.product_id %>', 'increase')"
-                    >
+                      class="quantity-btn increase-btn"
+                      data-product-id="<%= item.product_id %>"
+                      data-action="increase">
                       +
                     </button>
                   </div>
@@ -251,8 +118,7 @@
               </div>
               <button
                 class="remove-btn"
-                onclick="removeItem('<%= item.product_id %>')"
-              >
+                data-product-id="<%= item.product_id %>">
                 <i class="fas fa-trash"></i>
               </button>
             </div>
@@ -313,135 +179,6 @@
         </div>
       </div>
     </footer>
-
-    <script>
-      // remove item from the cart
-      async function removeItem(productId) {
-        try {
-          const response = await fetch("/cart/remove", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ productId }),
-          });
-
-          if (response.ok) {
-            const cartItem = document.getElementById(`cart-item-${productId}`);
-            if (cartItem) {
-              const itemQuantity = parseInt(cartItem.dataset.quantity);
-              const itemPrice = parseFloat(cartItem.dataset.price);
-              // update the cart totals
-              updateTotals(-itemQuantity, -(itemPrice * itemQuantity));
-              //   remove item from DOM
-              cartItem.remove();
-
-              checkEmptyCart();
-            }
-          }
-        } catch (error) {
-          console.error("error removing item:", error);
-        }
-      }
-
-      //   to increase or decrease item quantity
-      function updateQuantity(productId, action) {
-        const input = document.getElementById(`quantity-${productId}`);
-        let value = parseInt(input.value);
-
-        if (action === "increase") {
-          value = Math.min(value + 1, 100);
-        } else {
-          value = Math.max(value - 1, 1);
-        }
-
-        input.value = value;
-        // save updated quanity to server
-        updateItem(productId, value);
-      }
-      //   to update item quanitty on the server
-      async function updateItem(productId, quantity) {
-        const quantityNum = parseInt(quantity);
-        if (quantityNum < 1) {
-          alert("Quantity must be at least 1");
-          return;
-        }
-
-        try {
-          const response = await fetch("/cart/update", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              productId: productId,
-              quantity: quantityNum,
-            }),
-          });
-
-          if (response.ok) {
-            // reload page to render changes
-            location.reload();
-          }
-        } catch (error) {
-          console.error("error updating item:", error);
-        }
-      }
-      //   update the total quanity and price on the page
-      function updateTotals(quantityChange, priceChange) {
-        const totalItemsElem = document.getElementById("total-items");
-        const totalPriceElem = document.getElementById("total-price");
-
-        const currentItems = parseInt(totalItemsElem.textContent);
-        const currentPrice = parseFloat(
-          totalPriceElem.textContent.replace("£", "")
-        );
-
-        totalItemsElem.textContent = currentItems + quantityChange;
-        totalPriceElem.textContent = `£${(currentPrice + priceChange).toFixed(
-          2
-        )}`;
-      }
-      //   reload the page if cart is empty
-      function checkEmptyCart() {
-        const cartItems = document.querySelectorAll(".cart-item");
-        if (cartItems.length === 0) {
-          location.reload();
-        }
-      }
-
-      document.addEventListener("DOMContentLoaded", () => {
-        // checkout functionality:
-        const checkoutButton = document.getElementById("checkout-button");
-        if (checkoutButton) {
-          checkoutButton.addEventListener("click", async () => {
-            const cartItems = [];
-            document.querySelectorAll(".cart-item").forEach((item) => {
-              cartItems.push({
-                product_id: item.id.replace("cart-item-", ""),
-                name: item.querySelector("h3").textContent,
-                price: parseFloat(item.dataset.price) * 100,
-                quantity: parseInt(item.dataset.quantity),
-              });
-            });
-
-            try {
-              const response = await fetch("/checkout", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ cartItems }),
-              });
-
-              const session = await response.json();
-              if (session.url) {
-                window.location.href = session.url;
-              }
-            } catch (error) {
-              console.error("checkout error:", error);
-            }
-          });
-        }
-      });
-    </script>
+    <script src="/ClothingSite/scripts/cart.js"></script>
   </body>
 </html>

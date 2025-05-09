@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Jaura & Co</title>
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
+    <link rel="stylesheet" href="/ClothingSite/styling/contact.css" />
+    <!-- add Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- add Font Awesome  for icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header class="navbar">
+      <div class="container">
+        <h1 class="logo">JAURA & CO</h1>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="/"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="/search"><i class="fas fa-search"></i> Search</a>
+            </li>
+            <li>
+              <a href="/clothes"><i class="fas fa-tshirt"></i> Shop</a>
+            </li>
+            <li>
+              <a href="/about"><i class="fas fa-info-circle"></i> About</a>
+            </li>
+            <li>
+              <a href="/cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+            </li>
+            <li>
+              <a href="/account"><i class="fas fa-user"></i> Account</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- contact hero section -->
+    <section class="contact-hero">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you</p>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- contact information -->
+          <div class="contact-info">
+            <div class="info-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Visit Us</h3>
+              <p>123 Fashion Street</p>
+              <p>London, UK EC1A 1BB</p>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-phone"></i>
+              <h3>Call Us</h3>
+              <p>+44 123 456 789</p>
+              <p>Mon-Fri: 9am - 6pm</p>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-envelope"></i>
+              <h3>Email Us</h3>
+              <p>info@jauraandco.com</p>
+              <p>support@jauraandco.com</p>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-comments"></i>
+              <h3>Follow Us</h3>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- contact form -->
+          <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn">
+                Send Message <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="clothes">Shop</a></li>
+              <li><a href="about">About Us</a></li>
+              <li><a href="search">Search</a></li>
+              <li><a href="cart">Cart</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-envelope"></i> info@jauraandco.com</p>
+            <p><i class="fas fa-phone"></i> +44 123 456 789</p>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Jaura & Co. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- popup message -->
+    <div class="popup-message" id="popupMessage">
+      <div class="popup-content">
+        <i class="fas fa-check-circle"></i>
+        <p id="popupText" class="popup-text"></p>
+        <button id="closePopupButton" class="close-popup-button">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+    <script src="/ClothingSite/scripts/contact.js"></script>
+  </body>
+</html>

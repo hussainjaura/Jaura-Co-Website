@@ -34,7 +34,7 @@ async function createCartTable() {
       id INT AUTO_INCREMENT PRIMARY KEY,
       user_id INT NOT NULL,
       product_id INT NOT NULL,
-      name VARCHAR(255) NOT NULL,
+      name VARCHAR(255) NULL,
       price DECIMAL(10, 2) NOT NULL,
       quantity INT NOT NULL,
       image_url VARCHAR(255) NOT NULL,

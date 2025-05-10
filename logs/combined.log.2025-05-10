@@ -151,3 +151,8 @@
 [2025-05-10 16:43:58] [32mhttp[39m: GET /login-required
 [2025-05-10 16:43:58] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
 [2025-05-10 16:43:58] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-10 17:03:48] [32minfo[39m: Session store initialized successfully.
+[2025-05-10 17:03:49] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-10 17:03:49] [32minfo[39m: server is running at 3000
+[2025-05-10 17:03:49] [32minfo[39m: SESSION database connected successfully.
+[2025-05-10 17:03:49] [32minfo[39m: SESSION database connected successfully

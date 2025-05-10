@@ -1,6 +1,7 @@
 import { Sequelize, DataTypes } from "sequelize";
 import dotenv from "dotenv";
 import logger from "../utils/logger.js";
+import fs from "fs";
 
 // load environmental variables from .env file
 dotenv.config();

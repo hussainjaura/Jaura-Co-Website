@@ -4,6 +4,10 @@ import { fileURLToPath } from "url";
 import db from "../database/database.js";
 import logger from "../utils/logger.js";
 
+// please convert import.meta.url to CommonJS directory and filename as
+// Jest does not support import.meta.url filename in Testing so for Testing use like this:
+// const __dirname = __dirname;
+
 // file and directory name to use in routing
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

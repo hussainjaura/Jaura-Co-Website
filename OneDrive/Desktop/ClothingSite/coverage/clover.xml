@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1746783124650" clover="3.2.0">
-  <project timestamp="1746783124651" name="All files">
+<coverage generated="1746883749677" clover="3.2.0">
+  <project timestamp="1746883749677" name="All files">
     <metrics statements="77" coveredstatements="43" conditionals="22" coveredconditionals="8" methods="6" coveredmethods="5" elements="105" coveredelements="56" complexity="0" loc="77" ncloc="77" packages="1" files="1" classes="1"/>
     <file name="authRouter.js" path="C:\Users\Shining star\OneDrive\Desktop\ClothingSite\auth\authRouter.js">
       <metrics statements="77" coveredstatements="43" conditionals="22" coveredconditionals="8" methods="6" coveredmethods="5"/>

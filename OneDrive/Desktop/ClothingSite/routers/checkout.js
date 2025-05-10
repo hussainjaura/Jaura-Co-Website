@@ -10,6 +10,10 @@ import logger from "../utils/logger.js";
 // load environmental variables from .env file
 dotenv.config();
 
+// please convert import.meta.url to CommonJS directory and filename as
+// Jest does not support import.meta.url filename in Testing so for Testing use like this:
+// const __dirname = __dirname;
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const router = express.Router();

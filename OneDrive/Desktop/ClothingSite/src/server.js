@@ -19,7 +19,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-
+const PORT = process.env.PORT || 3000;
 // used helmet to secure HTTP headers
 app.use(helmet());
 
@@ -145,6 +145,6 @@ app.use((err, req, res, next) => {
 });
 
 // to start the server
-app.listen(3000, () => {
-  logger.info("server is running at http://localhost:3000");
+app.listen(PORT, () => {
+  logger.info(`server is running at ${PORT}`);
 });

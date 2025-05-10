@@ -48,8 +48,8 @@ router.post("/checkout", async (req, res) => {
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       mode: "payment",
-      success_url: "http://localhost:3000/checkout/success",
-      cancel_url: "http://localhost:3000/checkout/cancel",
+      success_url: "https://jaura-co-website.onrender.com/checkout/success",
+      cancel_url: "https://jaura-co-website.onrender.com/checkout/cancel",
       line_items: lineItems,
     });
 

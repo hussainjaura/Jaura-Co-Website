@@ -27,6 +27,50 @@ const pool = mysql.createPool({
   },
 });
 
+// function to create the cart table if it doesn't exist
+async function createCartTable() {
+  const createTableQuery = `
+    CREATE TABLE IF NOT EXISTS cart (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      user_id INT NOT NULL,
+      product_id INT NOT NULL,
+      name VARCHAR(255) NOT NULL,
+      price DECIMAL(10, 2) NOT NULL,
+      quantity INT NOT NULL,
+      image_url VARCHAR(255) NOT NULL,
+      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    );
+  `;
+
+  try {
+    // execute the query to create the cart table
+    await pool.query(createTableQuery);
+    logger.info("cart table created or already exists.");
+  } catch (err) {
+    logger.error(`error creating cart table: ${err.message}`);
+  }
+}
+
+// function to create the session table if it doesn't exist
+async function createSessionTable() {
+  const createTableQuery = `
+    CREATE TABLE IF NOT EXISTS sessions (
+      session_id VARCHAR(255) PRIMARY KEY,
+      expires INT NOT NULL,
+      data TEXT NOT NULL
+    );
+  `;
+
+  try {
+    // execute the query to create the session table
+    await pool.query(createTableQuery);
+    logger.info("sessions table created or already exists.");
+  } catch (err) {
+    logger.error(`error creating sessions table: ${err.message}`);
+  }
+}
+
 // function to test the database connection
 async function testDatabaseConnection() {
   try {

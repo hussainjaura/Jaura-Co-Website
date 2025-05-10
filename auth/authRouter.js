@@ -35,7 +35,6 @@ router.post("/signup", async (req, res) => {
       email,
       password: hashedPass,
     });
-    console.log("session object before setting user:", req.session);
 
     // make sure session middleware is working
     if (!req.session) {

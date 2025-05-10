@@ -7,12 +7,23 @@ dotenv.config();
 
 // create a sequelize instance to connect to MYSQL database
 const sequelize = new Sequelize(
-  "clothingwebsite",
-  "root",
-  process.env.password,
+  // TIDB cloud service database name
+  "test",
+  // cloud user name
+  process.env.cloud_user,
+  // stored in .env
+  process.env.cloud_password_TIBD,
   {
-    host: "localhost",
+    host: process.env.cloud_host,
+    port: process.env.cloud_port,
     dialect: "mysql",
+    dialectOptions: {
+      ssl: {
+        // cert file in env
+        ca: fs.readFileSync(process.env.cloud_certificate),
+      },
+    },
+    logging: false,
   }
 );
 
@@ -67,7 +78,7 @@ sequelize
 //   to check and authenticate the database connection
 try {
   await sequelize.authenticate();
-  console.log("connection has been established successfully!");
+  console.log("connection to TIBD has  been established successfully!");
 } catch (err) {
   logger.error(`unable to establish a connection: ${err.message}`);
 }

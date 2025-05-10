@@ -3,16 +3,21 @@ import expressSession from "express-session";
 import MySQLStoreFactory from "express-mysql-session";
 import dotenv from "dotenv";
 import logger from "../utils/logger.js";
+import fs from "fs";
 
 // to load environmental variables
 dotenv.config();
 
 // to create a MySQL connection pool
 const pool = mysql.createPool({
-  host: "localhost",
-  user: process.env.user,
-  password: process.env.password,
-  database: "clothingwebsite",
+  host: process.env.cloud_host,
+  port: process.env.cloud_port,
+  user: process.env.cloud_user,
+  password: process.env.cloud_password_TIBD,
+  database: process.env.cloud_name,
+  ssl: {
+    ca: fs.readFileSync(process.env.cloud_certificate),
+  },
 });
 
 // to correctly initialize MySQL session store

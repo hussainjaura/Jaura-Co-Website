@@ -79,6 +79,11 @@ async function testDatabaseConnection() {
     logger.info(
       `Database connected! Test query result: ${results[0].solution}`
     );
+
+    // this is to ceate cart table if it doesn't exist
+    await createCartTable();
+    // to create sessions table if it doesn't exist
+    await createSessionTable();
   } catch (err) {
     logger.error(`Database connection failed: ${err.message}`);
   }

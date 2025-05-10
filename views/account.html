@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaura & Co - Account</title>
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
+    <link rel="stylesheet" href="/ClothingSite/styling/account.css" />
+    <!-- add Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- add Font Awesome for icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- navigation bar -->
+    <header class="navbar">
+      <div class="container">
+        <h1 class="logo">JAURA & CO</h1>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="/"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="/search"><i class="fas fa-search"></i> Search</a>
+            </li>
+            <li>
+              <a href="/clothes"><i class="fas fa-tshirt"></i> Shop</a>
+            </li>
+            <li>
+              <a href="/about"><i class="fas fa-info-circle"></i> About</a>
+            </li>
+            <li>
+              <a href="/cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+            </li>
+            <li>
+              <a href="/account" class="active"
+                ><i class="fas fa-user"></i> Account</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- account hero section -->
+    <section class="account-hero">
+      <div class="container">
+        <h2>Your Account</h2>
+        <p>Manage your shopping experience</p>
+      </div>
+    </section>
+
+    <!-- authentication section -->
+    <div class="auth-container">
+      <div id="authSection" class="auth-box">
+        <div class="auth-header">
+          <h3 id="authTitle">Create Your Account</h3>
+          <p class="auth-subtitle">Join our community of fashion enthusiasts</p>
+        </div>
+
+        <!-- signup form -->
+        <form id="signupForm" class="auth-form">
+          <div class="form-group">
+            <i class="fas fa-user"></i>
+            <input
+              type="text"
+              id="signupUsername"
+              name="username"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <i class="fas fa-envelope"></i>
+            <input
+              type="email"
+              id="signupEmail"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <i class="fas fa-lock"></i>
+            <input
+              type="password"
+              id="signupPassword"
+              name="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <button type="submit" class="auth-button">
+            <span>Sign Up</span>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </form>
+
+        <!-- login Form -->
+        <form id="loginForm" class="auth-form" style="display: none">
+          <div class="form-group">
+            <i class="fas fa-envelope"></i>
+            <input
+              type="email"
+              id="loginEmail"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <i class="fas fa-lock"></i>
+            <input
+              type="password"
+              id="loginPassword"
+              name="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <button type="submit" class="auth-button">
+            <span>Log In</span>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </form>
+
+        <div class="auth-toggle">
+          <button id="toggleSignupBtn" class="toggle-btn" style="display: none">
+            <i class="fas fa-user-plus"></i> Don't have an account? Sign up
+          </button>
+          <button id="toggleLoginBtn" class="toggle-btn">
+            <i class="fas fa-sign-in-alt"></i> Already have an account? Log in
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- account section (hidden by default) -->
+    <div id="accountSection" class="account-dashboard" style="display: none">
+      <div class="container">
+        <div class="dashboard-header">
+          <p id="welcomeMessage" class="welcome-message"></p>
+          <button id="logoutButton" class="logout-button">
+            <i class="fas fa-sign-out-alt"></i> Logout
+          </button>
+        </div>
+
+        <div class="dashboard-content">
+          <div class="info-card">
+            <div class="card-header">
+              <i class="fas fa-user-circle"></i>
+              <h3>Your Profile</h3>
+            </div>
+            <div class="card-content">
+              <p>
+                Welcome to your personalized shopping dashboard at Jaura & Co.
+                Here you can manage your account and explore our exclusive
+                offerings.
+              </p>
+            </div>
+          </div>
+
+          <div class="features-grid">
+            <div class="feature-card">
+              <i class="fas fa-shopping-bag"></i>
+              <h4>Order History</h4>
+              <p>View and track your past purchases</p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-heart"></i>
+              <h4>Wishlist</h4>
+              <p>Save your favorite items</p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-tag"></i>
+              <h4>Special Offers</h4>
+              <p>Exclusive deals for members</p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-cog"></i>
+              <h4>Settings</h4>
+              <p>Manage your preferences</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- popup message -->
+    <div class="popup-message" id="popupMessage">
+      <div class="popup-content">
+        <i class="fas fa-check-circle"></i>
+        <p id="popupText" class="popup-text"></p>
+        <button id="closePopupButton" class="close-popup-button">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="clothes">Shop</a></li>
+              <li><a href="about">About Us</a></li>
+              <li><a href="search">Search</a></li>
+              <li><a href="cart">Cart</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-envelope"></i> info@jauraandco.com</p>
+            <p><i class="fas fa-phone"></i> +44 123 456 789</p>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Jaura & Co. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/ClothingSite/scripts/account.js"></script>
+  </body>
+</html>

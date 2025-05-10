@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Required - Jaura & Co</title>
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
+    <link rel="stylesheet" href="/ClothingSite/styling/login-required.css" />
+    <!-- add Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- add Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header class="navbar">
+      <div class="container">
+        <h1 class="logo">JAURA & CO</h1>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="/"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="/search"><i class="fas fa-search"></i> Search</a>
+            </li>
+            <li>
+              <a href="/clothes"><i class="fas fa-tshirt"></i> Shop</a>
+            </li>
+            <li>
+              <a href="/about"><i class="fas fa-info-circle"></i> About</a>
+            </li>
+            <li>
+              <a href="/cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+            </li>
+            <li>
+              <a href="/account"><i class="fas fa-user"></i> Account</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- login required section -->
+    <section class="login-required">
+      <div class="container">
+        <div class="login-box">
+          <i class="fas fa-lock"></i>
+          <h2>Authentication Required</h2>
+          <p><%= message %></p>
+          <div class="action-buttons">
+            <a href="/account" class="btn primary-btn" id="sign-in-btn">
+              <i class="fas fa-sign-in-alt"></i> Sign In
+            </a>
+            <a
+              href="/account"
+              class="btn secondary-btn"
+              id="create-account-btn"
+            >
+              <i class="fas fa-user-plus"></i> Create Account
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="clothes">Shop</a></li>
+              <li><a href="about">About Us</a></li>
+              <li><a href="search">Search</a></li>
+              <li><a href="cart">Cart</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-envelope"></i> info@jauraandco.com</p>
+            <p><i class="fas fa-phone"></i> +44 123 456 789</p>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Jaura & Co. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

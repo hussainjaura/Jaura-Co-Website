@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart - Jaura & Co</title>
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
+    <link rel="stylesheet" href="/ClothingSite/styling/cart.css" />
+    <!-- Add Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Add Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- navigation Bar -->
+    <header class="navbar">
+      <div class="container">
+        <h1 class="logo">JAURA & CO</h1>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="/"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="/search"><i class="fas fa-search"></i> Search</a>
+            </li>
+            <li>
+              <a href="/clothes"><i class="fas fa-tshirt"></i> Shop</a>
+            </li>
+            <li>
+              <a href="/about"><i class="fas fa-info-circle"></i> About</a>
+            </li>
+            <li>
+              <a href="/cart" class="active"
+                ><i class="fas fa-shopping-cart"></i> Cart</a
+              >
+            </li>
+            <li>
+              <a href="/account"><i class="fas fa-user"></i> Account</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- cart hero section -->
+    <section class="cart-hero">
+      <div class="container">
+        <h2>Your Shopping Cart</h2>
+        <p>Review your items and proceed to checkout</p>
+      </div>
+    </section>
+
+    <!-- cart section -->
+    <section class="cart-section">
+      <div class="container">
+        <% if (cartItems.length === 0) { %>
+        <div class="empty-cart">
+          <i class="fas fa-shopping-cart"></i>
+          <h3>Your cart is empty</h3>
+          <p>Looks like you haven't added any items to your cart yet.</p>
+          <a href="/clothes" class="btn primary-btn">
+            Start Shopping <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+        <% } else { %>
+        <div class="cart-content">
+          <div class="cart-items">
+            <% let totalItems = 0; %> <% let totalPrice = 0; %> <%
+            cartItems.forEach(item => { %>
+            <div
+              id="cart-item-<%= item.product_id %>"
+              class="cart-item"
+              data-quantity="<%= item.quantity %>"
+              data-price="<%= item.price %>"
+            >
+              <div class="item-image">
+                <img src="<%= item.image_url %>" alt="<%= item.name %>" />
+              </div>
+              <div class="item-details">
+                <h3><%= item.name %></h3>
+                <p class="item-price">
+                  £<%= parseFloat(item.price).toFixed(2) %>
+                </p>
+                <div class="quantity-control">
+                  <label for="quantity-<%= item.product_id %>">Quantity:</label>
+                  <div class="quantity-wrapper">
+                    <button
+                      class="quantity-btn decrease-btn"
+                      data-product-id="<%= item.product_id %>"
+                      data-action="decrease">
+                      -
+                    </button>
+                    <input
+                      id="quantity-<%= item.product_id %>"
+                      type="number"
+                      min="1"
+                      max="100"
+                      value="<%= item.quantity %>"
+                      data-product-id="<%= item.product_id %>"
+                      class="quantity-input"
+                    />
+                    <button
+                      class="quantity-btn increase-btn"
+                      data-product-id="<%= item.product_id %>"
+                      data-action="increase">
+                      +
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="remove-btn"
+                data-product-id="<%= item.product_id %>">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+            <% totalItems += parseInt(item.quantity); %> <% totalPrice +=
+            parseFloat(item.price) * parseInt(item.quantity); %> <% }); %>
+          </div>
+
+          <div class="cart-summary">
+            <h3>Order Summary</h3>
+            <div class="summary-details">
+              <div class="summary-row">
+                <span>Total Items:</span>
+                <span id="total-items"><%= totalItems %></span>
+              </div>
+              <div class="summary-row">
+                <span>Total Price:</span>
+                <span id="total-price">£<%= totalPrice.toFixed(2) %></span>
+              </div>
+            </div>
+            <button class="btn checkout-btn" id="checkout-button">
+              Proceed to Checkout <i class="fas fa-lock"></i>
+            </button>
+          </div>
+        </div>
+        <% } %>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="clothes">Shop</a></li>
+              <li><a href="about">About Us</a></li>
+              <li><a href="search">Search</a></li>
+              <li><a href="cart">Cart</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-envelope"></i> info@jauraandco.com</p>
+            <p><i class="fas fa-phone"></i> +44 123 456 789</p>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Jaura & Co. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/ClothingSite/scripts/cart.js"></script>
+  </body>
+</html>

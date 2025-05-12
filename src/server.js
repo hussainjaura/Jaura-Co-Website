@@ -148,3 +148,5 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   logger.info(`server is running at ${PORT}`);
 });
+
+// if I cannot logout with cart items then its definately the cart name problem

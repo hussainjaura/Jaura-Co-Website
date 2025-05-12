@@ -126,8 +126,21 @@ router.post("/logout", async (req, res) => {
     // iterate through each cart item and save or update it in the database
     for (let item of cart) {
       await pool.execute(
-        "INSERT INTO cart (user_id, product_id, quantity, price) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE quantity = ?",
-        [userId, item.product_id, item.quantity, item.price, item.quantity]
+        `INSERT INTO cart (user_id, product_id, name, price, quantity, image_url)
+     VALUES (?, ?, ?, ?, ?, ?)
+     ON DUPLICATE KEY UPDATE 
+       quantity = VALUES(quantity),
+       price = VALUES(price),
+       name = VALUES(name),
+       image_url = VALUES(image_url)`,
+        [
+          userId,
+          item.product_id,
+          item.name,
+          parseFloat(item.price),
+          parseInt(item.quantity),
+          item.image_url,
+        ]
       );
     }
 

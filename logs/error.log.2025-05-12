@@ -1,0 +1,4 @@
+[2025-05-12 07:23:21] [31merror[39m: logout error: Field 'name' doesn't have a default value Field 'name' doesn't have a default value
+[2025-05-12 07:30:36] [31merror[39m: logout error: malform packet error malform packet error
+[2025-05-12 07:33:14] [31merror[39m: logout error: Incorrect ? value: '?' for column 'quantity' at row 1 Incorrect ? value: '?' for column 'quantity' at row 1
+[2025-05-12 07:35:01] [31merror[39m: logout error: Incorrect ? value: '?' for column 'quantity' at row 1 Incorrect ? value: '?' for column 'quantity' at row 1

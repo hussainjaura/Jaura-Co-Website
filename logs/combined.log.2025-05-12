@@ -1,0 +1,324 @@
+[2025-05-12 07:22:39] [32minfo[39m: Session store initialized successfully.
+[2025-05-12 07:22:40] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-12 07:22:40] [32minfo[39m: cart table created or already exists.
+[2025-05-12 07:22:40] [32minfo[39m: sessions table created or already exists.
+[2025-05-12 07:22:40] [32minfo[39m: server is running at 3000
+[2025-05-12 07:22:40] [32minfo[39m: SESSION database connected successfully.
+[2025-05-12 07:22:40] [32minfo[39m: SESSION database connected successfully
+[2025-05-12 07:22:47] [32mhttp[39m: GET /
+[2025-05-12 07:22:47] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-12 07:22:48] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:22:48] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-12 07:22:48] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-12 07:22:48] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-12 07:22:48] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-12 07:22:49] [32mhttp[39m: GET /cart
+[2025-05-12 07:22:49] [32mhttp[39m: GET /login-required
+[2025-05-12 07:22:49] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
+[2025-05-12 07:22:49] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:22:53] [32mhttp[39m: GET /account
+[2025-05-12 07:22:53] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:22:53] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:22:53] [32mhttp[39m: GET /session
+[2025-05-12 07:22:53] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:22:53] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:22:47.676Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-12 07:23:05] [32mhttp[39m: POST /login
+[2025-05-12 07:23:05] [34mdebug[39m: login credentials received: {"email":"hussainjaura7@gmail.com"}
+[2025-05-12 07:23:05] [34mdebug[39m: password match: true
+[2025-05-12 07:23:06] [34mdebug[39m: session data set: {"id":30001,"username":"hussain jaura"}
+[2025-05-12 07:23:09] [32mhttp[39m: GET /account
+[2025-05-12 07:23:09] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:23:09] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:23:09] [32mhttp[39m: GET /session
+[2025-05-12 07:23:09] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:23:09] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:23:09] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747034590,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:23:12] [32mhttp[39m: GET /cart
+[2025-05-12 07:23:12] [34mdebug[39m: cart items for user 30001: [{"id":120001,"user_id":30001,"product_id":3,"name":"Puma RS-X","price":"130.00","quantity":2,"image_url":"/ClothingSite/images/shoes3.png","created_at":"2025-05-12T05:06:30.000Z","updated_at":"2025-05-12T05:09:53.000Z"}]
+[2025-05-12 07:23:12] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-12 07:23:12] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-12 07:23:12] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-12 07:23:13] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:23:18] [32mhttp[39m: GET /account
+[2025-05-12 07:23:18] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:23:18] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:23:18] [32mhttp[39m: GET /session
+[2025-05-12 07:23:18] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:23:18] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:23:18] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747034598,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:23:21] [32mhttp[39m: POST /logout
+[2025-05-12 07:23:21] [31merror[39m: logout error: Field 'name' doesn't have a default value Field 'name' doesn't have a default value
+[2025-05-12 07:23:21] [32mhttp[39m: GET /account
+[2025-05-12 07:23:22] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:23:22] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:23:22] [32mhttp[39m: GET /session
+[2025-05-12 07:23:22] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:23:22] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:23:22] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-12 07:23:22] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747034602,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:30:24] [32minfo[39m: Session store initialized successfully.
+[2025-05-12 07:30:25] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-12 07:30:25] [32minfo[39m: cart table created or already exists.
+[2025-05-12 07:30:25] [32minfo[39m: sessions table created or already exists.
+[2025-05-12 07:30:25] [32minfo[39m: server is running at 3000
+[2025-05-12 07:30:25] [32minfo[39m: SESSION database connected successfully.
+[2025-05-12 07:30:25] [32minfo[39m: SESSION database connected successfully
+[2025-05-12 07:30:32] [32mhttp[39m: GET /account
+[2025-05-12 07:30:33] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:30:33] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:30:33] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:30:33] [32mhttp[39m: GET /session
+[2025-05-12 07:30:33] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:30:33] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:30:33] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-12 07:30:33] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747035033,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:30:36] [32mhttp[39m: POST /logout
+[2025-05-12 07:30:36] [31merror[39m: logout error: malform packet error malform packet error
+[2025-05-12 07:30:36] [32mhttp[39m: GET /account
+[2025-05-12 07:30:36] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:30:36] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:30:37] [32mhttp[39m: GET /session
+[2025-05-12 07:30:37] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-12 07:30:37] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:30:37] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:30:37] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747035037,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:32:54] [32minfo[39m: Session store initialized successfully.
+[2025-05-12 07:32:55] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-12 07:32:55] [32minfo[39m: cart table created or already exists.
+[2025-05-12 07:32:55] [32minfo[39m: sessions table created or already exists.
+[2025-05-12 07:32:55] [32minfo[39m: server is running at 3000
+[2025-05-12 07:32:55] [32minfo[39m: SESSION database connected successfully.
+[2025-05-12 07:32:55] [32minfo[39m: SESSION database connected successfully
+[2025-05-12 07:32:58] [32mhttp[39m: GET /account
+[2025-05-12 07:32:59] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:32:59] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:32:59] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:32:59] [32mhttp[39m: GET /session
+[2025-05-12 07:32:59] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:32:59] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:32:59] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-12 07:32:59] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747035179,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:33:01] [32mhttp[39m: GET /cart
+[2025-05-12 07:33:01] [34mdebug[39m: cart items for user 30001: [{"id":120001,"user_id":30001,"product_id":3,"name":"Puma RS-X","price":"130.00","quantity":2,"image_url":"/ClothingSite/images/shoes3.png","created_at":"2025-05-12T05:06:30.000Z","updated_at":"2025-05-12T05:09:53.000Z"}]
+[2025-05-12 07:33:01] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-12 07:33:01] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-12 07:33:01] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:33:01] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-12 07:33:03] [32mhttp[39m: GET /clothes
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-12 07:33:03] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-12 07:33:04] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-12 07:33:06] [32mhttp[39m: POST /cart/add
+[2025-05-12 07:33:06] [34mdebug[39m: updated quantity for product 3 to 3
+[2025-05-12 07:33:08] [32mhttp[39m: GET /cart
+[2025-05-12 07:33:08] [34mdebug[39m: cart items for user 30001: [{"id":120001,"user_id":30001,"product_id":3,"name":"Puma RS-X","price":"130.00","quantity":3,"image_url":"/ClothingSite/images/shoes3.png","created_at":"2025-05-12T05:06:30.000Z","updated_at":"2025-05-12T05:33:11.000Z"}]
+[2025-05-12 07:33:08] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-12 07:33:08] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-12 07:33:08] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-12 07:33:12] [32mhttp[39m: GET /account
+[2025-05-12 07:33:12] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:33:12] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:33:12] [32mhttp[39m: GET /session
+[2025-05-12 07:33:12] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:33:12] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:33:12] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747035193,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:33:14] [32mhttp[39m: POST /logout
+[2025-05-12 07:33:14] [31merror[39m: logout error: Incorrect ? value: '?' for column 'quantity' at row 1 Incorrect ? value: '?' for column 'quantity' at row 1
+[2025-05-12 07:33:14] [32mhttp[39m: GET /account
+[2025-05-12 07:33:14] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:33:14] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:33:14] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-12 07:33:14] [32mhttp[39m: GET /session
+[2025-05-12 07:33:14] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:33:14] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:33:14] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747035195,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:34:52] [32minfo[39m: Session store initialized successfully.
+[2025-05-12 07:34:53] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-12 07:34:53] [32minfo[39m: cart table created or already exists.
+[2025-05-12 07:34:53] [32minfo[39m: sessions table created or already exists.
+[2025-05-12 07:34:53] [32minfo[39m: server is running at 3000
+[2025-05-12 07:34:53] [32minfo[39m: SESSION database connected successfully.
+[2025-05-12 07:34:53] [32minfo[39m: SESSION database connected successfully
+[2025-05-12 07:34:58] [32mhttp[39m: GET /account
+[2025-05-12 07:34:58] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:34:58] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:34:58] [32mhttp[39m: GET /session
+[2025-05-12 07:34:58] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:34:58] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:34:58] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-12 07:34:58] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747035299,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:35:01] [32mhttp[39m: POST /logout
+[2025-05-12 07:35:01] [31merror[39m: logout error: Incorrect ? value: '?' for column 'quantity' at row 1 Incorrect ? value: '?' for column 'quantity' at row 1
+[2025-05-12 07:35:01] [32mhttp[39m: GET /account
+[2025-05-12 07:35:01] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:35:01] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:35:01] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-12 07:35:01] [32mhttp[39m: GET /session
+[2025-05-12 07:35:01] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:35:01] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:35:01] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747035302,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:39:57] [32minfo[39m: Session store initialized successfully.
+[2025-05-12 07:39:59] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-12 07:39:59] [32minfo[39m: cart table created or already exists.
+[2025-05-12 07:39:59] [32minfo[39m: sessions table created or already exists.
+[2025-05-12 07:39:59] [32minfo[39m: server is running at 3000
+[2025-05-12 07:39:59] [32minfo[39m: SESSION database connected successfully.
+[2025-05-12 07:39:59] [32minfo[39m: SESSION database connected successfully
+[2025-05-12 07:40:20] [32mhttp[39m: GET /account
+[2025-05-12 07:40:20] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:40:20] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:40:20] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:40:20] [32mhttp[39m: GET /session
+[2025-05-12 07:40:20] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:23:06.074Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:40:20] [34mdebug[39m: session ID from req.sessionID: n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF
+[2025-05-12 07:40:20] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-12 07:40:20] [34mdebug[39m: session data from DB: [{"session_id":"n2ehFP9upsgWINe4lpjEEy5ECZ1FmopF","expires":1747035621,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:23:06.074Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:40:26] [32mhttp[39m: POST /logout
+[2025-05-12 07:40:27] [32mhttp[39m: GET /account
+[2025-05-12 07:40:27] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:40:27] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:40:27] [32mhttp[39m: GET /session
+[2025-05-12 07:40:27] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:40:27.076Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-12 07:40:27] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-12 07:40:44] [32mhttp[39m: POST /login
+[2025-05-12 07:40:44] [34mdebug[39m: login credentials received: {"email":"hussainjaura7@gmail.com"}
+[2025-05-12 07:40:44] [34mdebug[39m: password match: true
+[2025-05-12 07:40:44] [34mdebug[39m: session data set: {"id":30001,"username":"hussain jaura"}
+[2025-05-12 07:40:47] [32mhttp[39m: GET /account
+[2025-05-12 07:40:48] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:40:48] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:40:48] [32mhttp[39m: GET /session
+[2025-05-12 07:40:48] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:40:44.647Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:40:48] [34mdebug[39m: session ID from req.sessionID: XEbA0E-K2-GIyGYQedfZywZjnRsd5Rfl
+[2025-05-12 07:40:48] [34mdebug[39m: session data from DB: [{"session_id":"XEbA0E-K2-GIyGYQedfZywZjnRsd5Rfl","expires":1747035648,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:40:44.647Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:40:49] [32mhttp[39m: GET /cart
+[2025-05-12 07:40:49] [34mdebug[39m: cart items for user 30001: [{"id":120001,"user_id":30001,"product_id":3,"name":"Puma RS-X","price":"130.00","quantity":3,"image_url":"/ClothingSite/images/shoes3.png","created_at":"2025-05-12T05:06:30.000Z","updated_at":"2025-05-12T05:33:11.000Z"},{"id":150001,"user_id":30001,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:40:30.000Z","updated_at":"2025-05-12T05:40:30.000Z"},{"id":150002,"user_id":30001,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:40:31.000Z","updated_at":"2025-05-12T05:40:31.000Z"},{"id":150003,"user_id":30001,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:40:31.000Z","updated_at":"2025-05-12T05:40:31.000Z"}]
+[2025-05-12 07:40:49] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-12 07:40:49] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-12 07:40:49] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:40:49] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-12 07:40:49] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-12 07:40:49] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-12 07:40:49] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-12 07:40:52] [32mhttp[39m: POST /cart/remove
+[2025-05-12 07:40:52] [34mdebug[39m: removed product 8 from cart
+[2025-05-12 07:40:54] [32mhttp[39m: GET /account
+[2025-05-12 07:40:55] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:40:55] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:40:55] [32mhttp[39m: GET /session
+[2025-05-12 07:40:55] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:40:44.647Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120005,"user_id":1,"product_id":8,"name":"Denim Jacket","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/jackets2.png","created_at":"2025-05-12T05:08:43.000Z","updated_at":"2025-05-12T05:08:43.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":30001,"username":"hussain jaura"}}
+[2025-05-12 07:40:55] [34mdebug[39m: session ID from req.sessionID: XEbA0E-K2-GIyGYQedfZywZjnRsd5Rfl
+[2025-05-12 07:40:55] [34mdebug[39m: session data from DB: [{"session_id":"XEbA0E-K2-GIyGYQedfZywZjnRsd5Rfl","expires":1747035655,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:40:44.647Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120005,\"user_id\":1,\"product_id\":8,\"name\":\"Denim Jacket\",\"price\":\"120.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets2.png\",\"created_at\":\"2025-05-12T05:08:43.000Z\",\"updated_at\":\"2025-05-12T05:08:43.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":30001,\"username\":\"hussain jaura\"}}"}]
+[2025-05-12 07:40:58] [32mhttp[39m: POST /logout
+[2025-05-12 07:40:58] [32mhttp[39m: GET /account
+[2025-05-12 07:40:58] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:40:58] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:40:58] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-12 07:40:58] [32mhttp[39m: GET /session
+[2025-05-12 07:40:58] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:40:58.696Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-12 07:41:06] [32mhttp[39m: POST /login
+[2025-05-12 07:41:06] [34mdebug[39m: login credentials received: {"email":"kuta@gmail.com"}
+[2025-05-12 07:41:06] [34mdebug[39m: password match: true
+[2025-05-12 07:41:07] [34mdebug[39m: session data set: {"id":1,"username":"kuta"}
+[2025-05-12 07:41:10] [32mhttp[39m: GET /account
+[2025-05-12 07:41:10] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:41:10] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:41:10] [32mhttp[39m: GET /session
+[2025-05-12 07:41:10] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:41:07.037Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":1,"username":"kuta"}}
+[2025-05-12 07:41:10] [34mdebug[39m: session ID from req.sessionID: BL2DTafQ4QFyD5WPTq5_3MArdA-jlaD3
+[2025-05-12 07:41:10] [34mdebug[39m: session data from DB: [{"session_id":"BL2DTafQ4QFyD5WPTq5_3MArdA-jlaD3","expires":1747035670,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:41:07.037Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":1,\"username\":\"kuta\"}}"}]
+[2025-05-12 07:41:20] [32mhttp[39m: GET /cart
+[2025-05-12 07:41:20] [32mhttp[39m: GET /cart
+[2025-05-12 07:41:20] [34mdebug[39m: cart items for user 1: [{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}]
+[2025-05-12 07:41:20] [34mdebug[39m: cart items for user 1: [{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}]
+[2025-05-12 07:41:20] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-12 07:41:20] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-12 07:41:20] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-12 07:41:20] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-12 07:41:23] [32mhttp[39m: GET /clothes
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-12 07:41:23] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-12 07:41:24] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-12 07:41:24] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-12 07:41:25] [32mhttp[39m: POST /cart/add
+[2025-05-12 07:41:25] [34mdebug[39m: added new item to cart: productId 1
+[2025-05-12 07:41:28] [32mhttp[39m: GET /cart
+[2025-05-12 07:41:28] [34mdebug[39m: cart items for user 1: [{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"},{"id":150007,"user_id":1,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-12T05:41:30.000Z","updated_at":"2025-05-12T05:41:30.000Z"}]
+[2025-05-12 07:41:28] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-12 07:41:28] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-12 07:41:28] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-12 07:41:28] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-12 07:41:28] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-12 07:41:31] [32mhttp[39m: GET /account
+[2025-05-12 07:41:31] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:41:31] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:41:31] [32mhttp[39m: GET /session
+[2025-05-12 07:41:31] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:41:07.037Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[{"id":120004,"user_id":1,"product_id":6,"name":"Winter Parka","price":"200.00","quantity":1,"image_url":"/ClothingSite/images/jacket.png","created_at":"2025-05-12T05:08:40.000Z","updated_at":"2025-05-12T05:08:40.000Z"},{"id":120006,"user_id":1,"product_id":7,"name":"Leather Bomber","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/jackets4.ong.webp","created_at":"2025-05-12T05:08:47.000Z","updated_at":"2025-05-12T05:08:47.000Z"}],"user":{"id":1,"username":"kuta"}}
+[2025-05-12 07:41:31] [34mdebug[39m: session ID from req.sessionID: BL2DTafQ4QFyD5WPTq5_3MArdA-jlaD3
+[2025-05-12 07:41:31] [34mdebug[39m: session data from DB: [{"session_id":"BL2DTafQ4QFyD5WPTq5_3MArdA-jlaD3","expires":1747035692,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-12T07:41:07.037Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[{\"id\":120004,\"user_id\":1,\"product_id\":6,\"name\":\"Winter Parka\",\"price\":\"200.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jacket.png\",\"created_at\":\"2025-05-12T05:08:40.000Z\",\"updated_at\":\"2025-05-12T05:08:40.000Z\"},{\"id\":120006,\"user_id\":1,\"product_id\":7,\"name\":\"Leather Bomber\",\"price\":\"150.00\",\"quantity\":1,\"image_url\":\"/ClothingSite/images/jackets4.ong.webp\",\"created_at\":\"2025-05-12T05:08:47.000Z\",\"updated_at\":\"2025-05-12T05:08:47.000Z\"}],\"user\":{\"id\":1,\"username\":\"kuta\"}}"}]
+[2025-05-12 07:41:33] [32mhttp[39m: POST /logout
+[2025-05-12 07:41:34] [32mhttp[39m: GET /account
+[2025-05-12 07:41:34] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-12 07:41:34] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-12 07:41:34] [32mhttp[39m: GET /session
+[2025-05-12 07:41:34] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-12T07:41:34.198Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-12 07:41:34] [32mhttp[39m: GET /favicon/favicon.ico

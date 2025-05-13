@@ -1,0 +1,454 @@
+[2025-05-13 12:04:46] [32minfo[39m: Session store initialized successfully.
+[2025-05-13 12:04:47] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-13 12:04:47] [32minfo[39m: server is running at http://localhost:3000
+[2025-05-13 12:04:47] [32minfo[39m: SESSION database connected successfully.
+[2025-05-13 12:04:47] [32minfo[39m: SESSION database connected successfully
+[2025-05-13 12:05:06] [32mhttp[39m: GET /
+[2025-05-13 12:05:07] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-13 12:05:07] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-13 12:05:07] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-13 12:05:07] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:05:07] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-13 12:05:07] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:05:09] [32mhttp[39m: GET /clothes
+[2025-05-13 12:05:09] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:05:09] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-13 12:05:09] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-13 12:05:09] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-13 12:05:09] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:05:09] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:05:09] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-13 12:05:10] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-13 12:05:10] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-13 12:05:10] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:05:10] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-13 12:05:10] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-13 12:05:10] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-13 12:05:10] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-13 12:05:10] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-13 12:05:10] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-13 12:05:11] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-13 12:05:12] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-13 12:05:12] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-13 12:05:12] [32mhttp[39m: POST /cart/add
+[2025-05-13 12:05:15] [32mhttp[39m: GET /cart
+[2025-05-13 12:05:15] [32mhttp[39m: GET /login-required
+[2025-05-13 12:05:15] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
+[2025-05-13 12:05:15] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:05:17] [32mhttp[39m: GET /account
+[2025-05-13 12:05:17] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:05:17] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:05:17] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:05:17] [32mhttp[39m: GET /session
+[2025-05-13 12:05:17] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:05:06.702Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-13 12:05:24] [32mhttp[39m: POST /login
+[2025-05-13 12:05:24] [34mdebug[39m: login credentials received: {"email":"kuta@gmail.com"}
+[2025-05-13 12:05:24] [34mdebug[39m: password match: true
+[2025-05-13 12:05:24] [34mdebug[39m: session data set: {"id":112,"username":"kuta"}
+[2025-05-13 12:05:27] [32mhttp[39m: GET /account
+[2025-05-13 12:05:27] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:05:27] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:05:28] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:05:28] [32mhttp[39m: GET /session
+[2025-05-13 12:05:28] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:05:24.679Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:05:28] [34mdebug[39m: session ID from req.sessionID: kmx0sjWqDeLr6ZPGlr2xhej_bEUlIWBG
+[2025-05-13 12:05:28] [34mdebug[39m: session data from DB: [{"session_id":"kmx0sjWqDeLr6ZPGlr2xhej_bEUlIWBG","expires":1747137928,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-13T12:05:24.679Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:05:29] [32mhttp[39m: GET /cart
+[2025-05-13 12:05:29] [34mdebug[39m: cart items for user 112: []
+[2025-05-13 12:05:30] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-13 12:05:30] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-13 12:05:30] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:05:31] [32mhttp[39m: GET /clothes
+[2025-05-13 12:05:31] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-13 12:05:31] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:05:31] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:05:31] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-13 12:05:31] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:05:31] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-13 12:05:31] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-13 12:05:31] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-13 12:05:32] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-13 12:05:33] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-13 12:05:33] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-13 12:05:33] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-13 12:05:33] [32mhttp[39m: POST /cart/add
+[2025-05-13 12:05:33] [34mdebug[39m: added new item to cart: productId 1
+[2025-05-13 12:05:34] [32mhttp[39m: POST /cart/add
+[2025-05-13 12:05:34] [34mdebug[39m: added new item to cart: productId 2
+[2025-05-13 12:05:36] [32mhttp[39m: POST /cart/add
+[2025-05-13 12:05:36] [34mdebug[39m: added new item to cart: productId 4
+[2025-05-13 12:05:38] [32mhttp[39m: GET /account
+[2025-05-13 12:05:38] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:05:38] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:05:38] [32mhttp[39m: GET /session
+[2025-05-13 12:05:38] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:05:24.679Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:05:38] [34mdebug[39m: session ID from req.sessionID: kmx0sjWqDeLr6ZPGlr2xhej_bEUlIWBG
+[2025-05-13 12:05:38] [34mdebug[39m: session data from DB: [{"session_id":"kmx0sjWqDeLr6ZPGlr2xhej_bEUlIWBG","expires":1747137939,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-13T12:05:24.679Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:05:40] [32mhttp[39m: GET /cart
+[2025-05-13 12:05:40] [34mdebug[39m: cart items for user 112: [{"id":166,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-13T11:05:33.000Z","updated_at":"2025-05-13T11:05:33.000Z"},{"id":167,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-13T11:05:34.000Z","updated_at":"2025-05-13T11:05:34.000Z"},{"id":168,"user_id":112,"product_id":4,"name":"Reebok Classic Leather","price":"110.00","quantity":1,"image_url":"/ClothingSite/images/shoes4.png","created_at":"2025-05-13T11:05:36.000Z","updated_at":"2025-05-13T11:05:36.000Z"}]
+[2025-05-13 12:05:40] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-13 12:05:40] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:05:40] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-13 12:05:40] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:05:40] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:05:42] [32mhttp[39m: POST /cart/update
+[2025-05-13 12:05:42] [34mdebug[39m: updated cart item 4 to quantity 2
+[2025-05-13 12:05:42] [32mhttp[39m: GET /cart
+[2025-05-13 12:05:42] [34mdebug[39m: cart items for user 112: [{"id":166,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-13T11:05:33.000Z","updated_at":"2025-05-13T11:05:33.000Z"},{"id":167,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-13T11:05:34.000Z","updated_at":"2025-05-13T11:05:34.000Z"},{"id":168,"user_id":112,"product_id":4,"name":"Reebok Classic Leather","price":"110.00","quantity":2,"image_url":"/ClothingSite/images/shoes4.png","created_at":"2025-05-13T11:05:36.000Z","updated_at":"2025-05-13T11:05:42.000Z"}]
+[2025-05-13 12:05:42] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-13 12:05:43] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:05:43] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:05:43] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:05:43] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-13 12:05:43] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-13 12:05:43] [32mhttp[39m: POST /cart/update
+[2025-05-13 12:05:43] [34mdebug[39m: updated cart item 4 to quantity 3
+[2025-05-13 12:05:43] [32mhttp[39m: GET /cart
+[2025-05-13 12:05:43] [34mdebug[39m: cart items for user 112: [{"id":166,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-13T11:05:33.000Z","updated_at":"2025-05-13T11:05:33.000Z"},{"id":167,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-13T11:05:34.000Z","updated_at":"2025-05-13T11:05:34.000Z"},{"id":168,"user_id":112,"product_id":4,"name":"Reebok Classic Leather","price":"110.00","quantity":3,"image_url":"/ClothingSite/images/shoes4.png","created_at":"2025-05-13T11:05:36.000Z","updated_at":"2025-05-13T11:05:43.000Z"}]
+[2025-05-13 12:05:43] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-13 12:05:43] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:05:43] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:05:43] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:05:43] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-13 12:05:44] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-13 12:05:44] [32mhttp[39m: POST /cart/update
+[2025-05-13 12:05:44] [34mdebug[39m: updated cart item 4 to quantity 2
+[2025-05-13 12:05:44] [32mhttp[39m: GET /cart
+[2025-05-13 12:05:44] [34mdebug[39m: cart items for user 112: [{"id":166,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-13T11:05:33.000Z","updated_at":"2025-05-13T11:05:33.000Z"},{"id":167,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-13T11:05:34.000Z","updated_at":"2025-05-13T11:05:34.000Z"},{"id":168,"user_id":112,"product_id":4,"name":"Reebok Classic Leather","price":"110.00","quantity":2,"image_url":"/ClothingSite/images/shoes4.png","created_at":"2025-05-13T11:05:36.000Z","updated_at":"2025-05-13T11:05:44.000Z"}]
+[2025-05-13 12:05:44] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-13 12:05:44] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:05:44] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:05:44] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:05:44] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-13 12:05:45] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-13 12:05:49] [32mhttp[39m: POST /checkout
+[2025-05-13 12:05:49] [34mdebug[39m: checkout router hit!
+[2025-05-13 12:05:49] [34mdebug[39m: received cart items: {"cartItems":[{"product_id":"1","name":"Nike Air Max","price":12000,"quantity":1},{"product_id":"2","name":"Adidas Ultra Boost","price":15000,"quantity":1},{"product_id":"4","name":"Reebok Classic Leather","price":11000,"quantity":2}]}
+[2025-05-13 12:05:55] [32mhttp[39m: GET /checkout/cancel
+[2025-05-13 12:05:55] [32mhttp[39m: GET /ClothingSite/styling/checkout.css
+[2025-05-13 12:05:55] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:05:57] [32mhttp[39m: GET /cart
+[2025-05-13 12:05:57] [34mdebug[39m: cart items for user 112: [{"id":166,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-13T11:05:33.000Z","updated_at":"2025-05-13T11:05:33.000Z"},{"id":167,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-13T11:05:34.000Z","updated_at":"2025-05-13T11:05:34.000Z"},{"id":168,"user_id":112,"product_id":4,"name":"Reebok Classic Leather","price":"110.00","quantity":2,"image_url":"/ClothingSite/images/shoes4.png","created_at":"2025-05-13T11:05:36.000Z","updated_at":"2025-05-13T11:05:44.000Z"}]
+[2025-05-13 12:05:57] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-13 12:05:57] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:05:57] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:05:57] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:05:57] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-13 12:05:57] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:05:59] [32mhttp[39m: GET /account
+[2025-05-13 12:05:59] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:05:59] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:05:59] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:05:59] [32mhttp[39m: GET /session
+[2025-05-13 12:05:59] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:05:24.679Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:05:59] [34mdebug[39m: session ID from req.sessionID: kmx0sjWqDeLr6ZPGlr2xhej_bEUlIWBG
+[2025-05-13 12:06:00] [34mdebug[39m: session data from DB: [{"session_id":"kmx0sjWqDeLr6ZPGlr2xhej_bEUlIWBG","expires":1747137960,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-13T12:05:24.679Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:06:01] [32mhttp[39m: POST /logout
+[2025-05-13 12:06:01] [32mhttp[39m: GET /account
+[2025-05-13 12:06:01] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:06:01] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:06:02] [32mhttp[39m: GET /session
+[2025-05-13 12:06:02] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-13 12:06:02] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:06:01.784Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-13 12:06:03] [32mhttp[39m: GET /cart
+[2025-05-13 12:06:03] [32mhttp[39m: GET /login-required
+[2025-05-13 12:06:03] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
+[2025-05-13 12:06:03] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:06:04] [32mhttp[39m: GET /account
+[2025-05-13 12:06:04] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:06:04] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:06:04] [32mhttp[39m: GET /session
+[2025-05-13 12:06:04] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:06:01.784Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-13 12:06:10] [32mhttp[39m: POST /login
+[2025-05-13 12:06:10] [34mdebug[39m: login credentials received: {"email":"kuta@gmail.com"}
+[2025-05-13 12:06:10] [34mdebug[39m: password match: true
+[2025-05-13 12:06:10] [34mdebug[39m: session data set: {"id":112,"username":"kuta"}
+[2025-05-13 12:06:13] [32mhttp[39m: GET /account
+[2025-05-13 12:06:13] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:06:13] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:06:13] [32mhttp[39m: GET /session
+[2025-05-13 12:06:13] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:06:10.651Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:06:13] [34mdebug[39m: session ID from req.sessionID: HqyFr8c8Nnsy8iV7nXgLEEmuJYK1iaDM
+[2025-05-13 12:06:13] [34mdebug[39m: session data from DB: [{"session_id":"HqyFr8c8Nnsy8iV7nXgLEEmuJYK1iaDM","expires":1747137974,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-13T12:06:10.651Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:06:14] [32mhttp[39m: GET /cart
+[2025-05-13 12:06:14] [34mdebug[39m: cart items for user 112: [{"id":166,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-13T11:05:33.000Z","updated_at":"2025-05-13T11:05:33.000Z"},{"id":167,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-13T11:05:34.000Z","updated_at":"2025-05-13T11:05:34.000Z"},{"id":168,"user_id":112,"product_id":4,"name":"Reebok Classic Leather","price":"110.00","quantity":2,"image_url":"/ClothingSite/images/shoes4.png","created_at":"2025-05-13T11:05:36.000Z","updated_at":"2025-05-13T11:05:44.000Z"}]
+[2025-05-13 12:06:14] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-13 12:06:14] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:06:14] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:06:14] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:06:14] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-13 12:06:20] [32mhttp[39m: GET /account
+[2025-05-13 12:06:20] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:06:20] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:06:20] [32mhttp[39m: GET /session
+[2025-05-13 12:06:20] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:06:10.651Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:06:20] [34mdebug[39m: session ID from req.sessionID: HqyFr8c8Nnsy8iV7nXgLEEmuJYK1iaDM
+[2025-05-13 12:06:21] [34mdebug[39m: session data from DB: [{"session_id":"HqyFr8c8Nnsy8iV7nXgLEEmuJYK1iaDM","expires":1747137981,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-13T12:06:10.651Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:06:22] [32mhttp[39m: POST /logout
+[2025-05-13 12:06:22] [32mhttp[39m: GET /account
+[2025-05-13 12:06:22] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:06:22] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:06:22] [32mhttp[39m: GET /session
+[2025-05-13 12:06:22] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3599999,"expires":"2025-05-13T12:06:22.553Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-13 12:06:22] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-13 12:06:39] [32mhttp[39m: POST /login
+[2025-05-13 12:06:39] [34mdebug[39m: login credentials received: {"email":"kuta@gmail.com"}
+[2025-05-13 12:06:39] [34mdebug[39m: password match: true
+[2025-05-13 12:06:39] [34mdebug[39m: session data set: {"id":112,"username":"kuta"}
+[2025-05-13 12:06:42] [32mhttp[39m: GET /account
+[2025-05-13 12:06:42] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:06:42] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:06:42] [32mhttp[39m: GET /session
+[2025-05-13 12:06:42] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3599999,"expires":"2025-05-13T12:06:39.508Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:06:42] [34mdebug[39m: session ID from req.sessionID: kiRoUSJdP91MDpR0u4356pzdPKmWtXk3
+[2025-05-13 12:06:42] [34mdebug[39m: session data from DB: [{"session_id":"kiRoUSJdP91MDpR0u4356pzdPKmWtXk3","expires":1747138003,"data":"{\"cookie\":{\"originalMaxAge\":3599999,\"expires\":\"2025-05-13T12:06:39.508Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:06:54] [32mhttp[39m: GET /account
+[2025-05-13 12:06:55] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:06:55] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:06:55] [32mhttp[39m: GET /session
+[2025-05-13 12:06:55] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3599999,"expires":"2025-05-13T12:06:39.508Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:06:55] [34mdebug[39m: session ID from req.sessionID: kiRoUSJdP91MDpR0u4356pzdPKmWtXk3
+[2025-05-13 12:06:55] [34mdebug[39m: session data from DB: [{"session_id":"kiRoUSJdP91MDpR0u4356pzdPKmWtXk3","expires":1747138015,"data":"{\"cookie\":{\"originalMaxAge\":3599999,\"expires\":\"2025-05-13T12:06:39.508Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:06:59] [32mhttp[39m: GET /
+[2025-05-13 12:07:00] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-13 12:07:00] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:07:00] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-13 12:07:00] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-13 12:07:00] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-13 12:07:00] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:07:02] [32mhttp[39m: GET /account
+[2025-05-13 12:07:02] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:07:02] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:07:02] [32mhttp[39m: GET /session
+[2025-05-13 12:07:02] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:07:02] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3599999,"expires":"2025-05-13T12:06:39.508Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:07:02] [34mdebug[39m: session ID from req.sessionID: kiRoUSJdP91MDpR0u4356pzdPKmWtXk3
+[2025-05-13 12:07:02] [34mdebug[39m: session data from DB: [{"session_id":"kiRoUSJdP91MDpR0u4356pzdPKmWtXk3","expires":1747138022,"data":"{\"cookie\":{\"originalMaxAge\":3599999,\"expires\":\"2025-05-13T12:06:39.508Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:07:16] [32mhttp[39m: POST /logout
+[2025-05-13 12:07:16] [32mhttp[39m: GET /account
+[2025-05-13 12:07:16] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:07:16] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:07:16] [32mhttp[39m: GET /session
+[2025-05-13 12:07:16] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:07:16.315Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-13 12:07:16] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-13 12:07:23] [32mhttp[39m: POST /login
+[2025-05-13 12:07:23] [34mdebug[39m: login credentials received: {"email":"kuta@gmail.com"}
+[2025-05-13 12:07:23] [34mdebug[39m: password match: true
+[2025-05-13 12:07:23] [34mdebug[39m: session data set: {"id":112,"username":"kuta"}
+[2025-05-13 12:07:26] [32mhttp[39m: GET /account
+[2025-05-13 12:07:26] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:07:26] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:07:26] [32mhttp[39m: GET /session
+[2025-05-13 12:07:26] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:07:23.733Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:07:27] [34mdebug[39m: session ID from req.sessionID: y4bmHu4SL1gmUGxps1-hma2GZKu2Q1Mo
+[2025-05-13 12:07:27] [34mdebug[39m: session data from DB: [{"session_id":"y4bmHu4SL1gmUGxps1-hma2GZKu2Q1Mo","expires":1747138047,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-13T12:07:23.733Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:07:28] [32mhttp[39m: GET /cart
+[2025-05-13 12:07:28] [34mdebug[39m: cart items for user 112: [{"id":166,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-13T11:05:33.000Z","updated_at":"2025-05-13T11:05:33.000Z"},{"id":167,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-13T11:05:34.000Z","updated_at":"2025-05-13T11:05:34.000Z"},{"id":168,"user_id":112,"product_id":4,"name":"Reebok Classic Leather","price":"110.00","quantity":2,"image_url":"/ClothingSite/images/shoes4.png","created_at":"2025-05-13T11:05:36.000Z","updated_at":"2025-05-13T11:05:44.000Z"}]
+[2025-05-13 12:07:28] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-13 12:07:28] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:07:28] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:07:28] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:07:28] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-13 12:07:28] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:07:29] [32mhttp[39m: GET /about
+[2025-05-13 12:07:29] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-13 12:07:29] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:07:29] [32mhttp[39m: GET /cart
+[2025-05-13 12:07:29] [34mdebug[39m: cart items for user 112: [{"id":166,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-13T11:05:33.000Z","updated_at":"2025-05-13T11:05:33.000Z"},{"id":167,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-13T11:05:34.000Z","updated_at":"2025-05-13T11:05:34.000Z"},{"id":168,"user_id":112,"product_id":4,"name":"Reebok Classic Leather","price":"110.00","quantity":2,"image_url":"/ClothingSite/images/shoes4.png","created_at":"2025-05-13T11:05:36.000Z","updated_at":"2025-05-13T11:05:44.000Z"}]
+[2025-05-13 12:07:30] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-13 12:07:30] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:07:30] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:07:30] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:07:30] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-13 12:07:31] [32mhttp[39m: GET /account
+[2025-05-13 12:07:31] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:07:31] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:07:31] [32mhttp[39m: GET /session
+[2025-05-13 12:07:31] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:07:23.733Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:07:31] [34mdebug[39m: session ID from req.sessionID: y4bmHu4SL1gmUGxps1-hma2GZKu2Q1Mo
+[2025-05-13 12:07:31] [34mdebug[39m: session data from DB: [{"session_id":"y4bmHu4SL1gmUGxps1-hma2GZKu2Q1Mo","expires":1747138052,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-13T12:07:23.733Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:07:32] [32mhttp[39m: POST /logout
+[2025-05-13 12:07:32] [32mhttp[39m: GET /account
+[2025-05-13 12:07:32] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:07:32] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:07:32] [32mhttp[39m: GET /session
+[2025-05-13 12:07:32] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:07:32.807Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-13 12:07:32] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-13 12:07:39] [32mhttp[39m: POST /login
+[2025-05-13 12:07:39] [34mdebug[39m: login credentials received: {"email":"kuta@gmail.com"}
+[2025-05-13 12:07:39] [34mdebug[39m: password match: true
+[2025-05-13 12:07:39] [34mdebug[39m: session data set: {"id":112,"username":"kuta"}
+[2025-05-13 12:07:41] [32mhttp[39m: GET /cart
+[2025-05-13 12:07:41] [34mdebug[39m: cart items for user 112: [{"id":166,"user_id":112,"product_id":1,"name":"Nike Air Max","price":"120.00","quantity":1,"image_url":"/ClothingSite/images/boots.png","created_at":"2025-05-13T11:05:33.000Z","updated_at":"2025-05-13T11:05:33.000Z"},{"id":167,"user_id":112,"product_id":2,"name":"Adidas Ultra Boost","price":"150.00","quantity":1,"image_url":"/ClothingSite/images/shoes7.png","created_at":"2025-05-13T11:05:34.000Z","updated_at":"2025-05-13T11:05:34.000Z"},{"id":168,"user_id":112,"product_id":4,"name":"Reebok Classic Leather","price":"110.00","quantity":2,"image_url":"/ClothingSite/images/shoes4.png","created_at":"2025-05-13T11:05:36.000Z","updated_at":"2025-05-13T11:05:44.000Z"}]
+[2025-05-13 12:07:41] [32mhttp[39m: GET /ClothingSite/styling/cart.css
+[2025-05-13 12:07:41] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:07:41] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:07:41] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:07:41] [32mhttp[39m: GET /ClothingSite/scripts/cart.js
+[2025-05-13 12:07:43] [32mhttp[39m: GET /account
+[2025-05-13 12:07:43] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:07:43] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:07:43] [32mhttp[39m: GET /session
+[2025-05-13 12:07:43] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:07:39.784Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"cart":[],"user":{"id":112,"username":"kuta"}}
+[2025-05-13 12:07:43] [34mdebug[39m: session ID from req.sessionID: -rQeD7pz48pDaeaHoiOAVRrqBuRRu671
+[2025-05-13 12:07:44] [34mdebug[39m: session data from DB: [{"session_id":"-rQeD7pz48pDaeaHoiOAVRrqBuRRu671","expires":1747138064,"data":"{\"cookie\":{\"originalMaxAge\":3600000,\"expires\":\"2025-05-13T12:07:39.784Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\",\"sameSite\":\"lax\"},\"cart\":[],\"user\":{\"id\":112,\"username\":\"kuta\"}}"}]
+[2025-05-13 12:07:45] [32mhttp[39m: POST /logout
+[2025-05-13 12:07:45] [32mhttp[39m: GET /account
+[2025-05-13 12:07:45] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:07:45] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:07:45] [32mhttp[39m: GET /session
+[2025-05-13 12:07:45] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:07:45.172Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-13 12:07:45] [32mhttp[39m: GET /favicon/favicon.ico
+[2025-05-13 12:07:45] [32mhttp[39m: GET /cart
+[2025-05-13 12:07:45] [32mhttp[39m: GET /login-required
+[2025-05-13 12:07:45] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
+[2025-05-13 12:07:46] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:07:48] [32mhttp[39m: GET /
+[2025-05-13 12:07:48] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-13 12:07:48] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:07:48] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-13 12:07:48] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-13 12:07:48] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-13 12:07:48] [32mhttp[39m: GET /search
+[2025-05-13 12:07:48] [34mdebug[39m: GET /search accessed
+[2025-05-13 12:07:48] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:07:48] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-13 12:07:48] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:07:48] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-13 12:07:48] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-13 12:07:49] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-13 12:07:51] [32mhttp[39m: POST /search
+[2025-05-13 12:07:51] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-13 12:07:51] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-13 12:07:51] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-13 12:07:51] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-13 12:07:51] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-13 12:07:51] [32mhttp[39m: GET /ClothingSite/scripts/search.js
+[2025-05-13 12:07:56] [32mhttp[39m: GET /ClothingSite/styling/search.css
+[2025-05-13 12:09:13] [32mhttp[39m: GET /cart
+[2025-05-13 12:09:13] [32mhttp[39m: GET /login-required
+[2025-05-13 12:09:14] [32mhttp[39m: GET /ClothingSite/styling/login-required.css
+[2025-05-13 12:09:14] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:09:15] [32mhttp[39m: GET /about
+[2025-05-13 12:09:16] [32mhttp[39m: GET /ClothingSite/styling/about.css
+[2025-05-13 12:09:16] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:09:17] [32mhttp[39m: GET /contact
+[2025-05-13 12:09:17] [32mhttp[39m: GET /contact
+[2025-05-13 12:09:17] [32mhttp[39m: GET /ClothingSite/styling/contact.css
+[2025-05-13 12:09:17] [32mhttp[39m: GET /ClothingSite/scripts/contact.js
+[2025-05-13 12:09:17] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /clothes
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/styling/clothes.css
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/boots.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/shoes3.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/shoes4.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/shoes5.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/jackets4.ong.webp
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/jackets2.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/jackets3.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/jackets5.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/tshirt7.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/tshirt3.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/tshirt4.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/tshirt5.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/jeans.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/pants2.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/pants7.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/pants4.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/pants5.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/trousers.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/hoodies2.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/hoodies3.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/hoodies4.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/hoodies5.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/caps6.png
+[2025-05-13 12:09:26] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-13 12:09:27] [32mhttp[39m: GET /ClothingSite/images/caps3.png
+[2025-05-13 12:09:27] [32mhttp[39m: GET /ClothingSite/images/caps4.png
+[2025-05-13 12:09:27] [32mhttp[39m: GET /ClothingSite/images/caps5.png
+[2025-05-13 12:09:27] [32mhttp[39m: GET /ClothingSite/scripts/clothes.js
+[2025-05-13 12:09:29] [32mhttp[39m: GET /
+[2025-05-13 12:09:29] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-13 12:09:29] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:09:29] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-13 12:09:29] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-13 12:09:29] [32mhttp[39m: GET /ClothingSite/images/caps2.png
+[2025-05-13 12:09:29] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:09:30] [32mhttp[39m: GET /account
+[2025-05-13 12:09:30] [32mhttp[39m: GET /ClothingSite/styling/account.css
+[2025-05-13 12:09:30] [32mhttp[39m: GET /ClothingSite/scripts/account.js
+[2025-05-13 12:09:30] [32mhttp[39m: GET /ClothingSite/images/main.png
+[2025-05-13 12:09:30] [32mhttp[39m: GET /session
+[2025-05-13 12:09:30] [34mdebug[39m: session object: {"cookie":{"originalMaxAge":3600000,"expires":"2025-05-13T12:07:45.172Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"}}
+[2025-05-13 12:09:31] [32mhttp[39m: GET /
+[2025-05-13 12:09:31] [32mhttp[39m: GET /ClothingSite/styling/main.css
+[2025-05-13 12:09:31] [32mhttp[39m: GET /ClothingSite/images/shoes7.png
+[2025-05-13 12:09:31] [32mhttp[39m: GET /ClothingSite/images/jacket.png
+[2025-05-13 12:09:31] [32mhttp[39m: GET /ClothingSite/images/t-shirt.png
+[2025-05-13 12:09:31] [32mhttp[39m: GET /ClothingSite/images/caps2.png

@@ -5,7 +5,7 @@
 My Jaura & Co Clothing Website is deployed under the 'Render' platform, feel free to visit the following url and check my internship project out:
 https://jaura-co-website.onrender.com
 
-## How to open Project at your Local Machine
+## How to open Project at your Local Machine:
 
 1. First step is to clone this repository to your local folder in any Integrated Development Environment.
 2. write down cd "desired repository" in your terminal.
@@ -15,31 +15,31 @@ https://jaura-co-website.onrender.com
 6. After dependencies are installed properly, from root directory type 'node src/server.js' to run the Clothing Website locally.
 7. Open your browser and type 'http://localhost:3000' to run the Website.
 
-## Technologies used in Jaura & Co Website
+## Technologies used in Jaura & Co Website:
 
--Javascript
--Node JS
--Express
--MySQL
--EJS
--HTML
--CSS
--Winston
--Stripe Payments
--Cookies and Sessions
--Sequelize
--Bcrypt.js
--Helmet
--Jest
--AJAX
--JSON
--Logger
--Express Session
--Git & Github
+- Javascript
+- Node JS
+- Express
+- MySQL
+- EJS
+- HTML
+- CSS
+- Winston
+- Stripe Payments
+- Cookies and Sessions
+- Sequelize
+- Bcrypt.js
+- Helmet
+- Jest
+- AJAX
+- JSON
+- Logger
+- Express Session
+- Git & Github
 
-## Project Features and Functionalities
+# Project Features and Functionalities
 
-## User Accessibility
+## User Accessibility:
 
 To enhance the overall user experience and ensure a production-ready web application, several features were implemented to manage user access, data persistence, and secure interactions.
 
@@ -89,7 +89,7 @@ To enhance the overall user experience and ensure a production-ready web applica
 
    The UI is styled to ensure readability, aesthetic and a professional look suitable for production environments.
 
-## Code Quality and Best Practices
+## Code Quality and Best Practices:
 
 Throughout the development of the Jaura & Co Clothing Website, strong idea was placed on writing clean, efficient, and maintainable code. The goal was to follow industry-standard best practices to ensure scalability, readability, and long-term supportability.
 
@@ -135,7 +135,7 @@ Throughout the development of the Jaura & Co Clothing Website, strong idea was p
 
     All API endpoints follow RESTful design principles, making backend interactions intuitive and scalable.
 
-## Contribute to my Website
+## Contribute to my Website:
 
 - Fork the repo
 - Create a new branch ('git checkout -b feature-branch')
@@ -143,7 +143,7 @@ Throughout the development of the Jaura & Co Clothing Website, strong idea was p
 - Push to the branch ('git push origin feature-branch')
 - Open a pull request
 
-## Contact
+## Contact:
 
 - Email: [hussainjaura10@gmail.com]
 - LinkedIn: [https://www.linkedin.com/in/muhammad-hussain-jaura-b303482b1/]

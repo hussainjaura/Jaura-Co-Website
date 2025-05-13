@@ -15,3 +15,4 @@ Templates/
 OneDrive/
 node_modules/
 .env
+node_modules

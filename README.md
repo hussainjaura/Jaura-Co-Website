@@ -103,53 +103,53 @@ Throughout the development of the Jaura & Co Clothing Website, strong idea was p
 
 ### 1. Code Structure
 
-    The codebase is organized into logical, reusable modules following separation of concerns.
+The codebase is organized into logical, reusable modules following separation of concerns.
 
 ### Folder Structure:
 
-    Routers, Auth, Structure, Styling, Database, Images, Models, Test and view templates etc, are all separated into dedicated directories.
+Routers, Auth, Structure, Styling, Database, Images, Models, Test and view templates etc, are all separated into dedicated directories.
 
-    This well structured and defined architecture allows for easier debugging, testing, and future expansion.
+This well structured and defined architecture allows for easier debugging, testing, and future expansion.
 
 ### 2. Clean & Readable Syntax
 
-    All code follows consistent formatting conventions, such as meaningful, straightforward variable and function names, consistent indentation, and proper comments.
+All code follows consistent formatting conventions, such as meaningful, straightforward variable and function names, consistent indentation, and proper comments.
 
-    Code has been written in a way that comments are not repeated again and again
+Code has been written in a way that comments are not repeated again and again
 
-    Functions and handlers are written with single-responsibility in mind, making them easier to maintain and test.
+Functions and handlers are written with single-responsibility in mind, making them easier to maintain and test.
 
 ### 3. Error Handling & Logging
 
-    Proper try/catch blocks and middleware-based error handling are implemented to gracefully manage unexpected issues and prevent crashes.
+Proper try/catch blocks and middleware-based error handling are implemented to gracefully manage unexpected issues and prevent crashes.
 
-    The Winston logging library is used to log HTTP requests, errors, and important runtime information, supporting both development and production monitoring.
+The Winston logging library is used to log HTTP requests, errors, and important runtime information, supporting both development and production monitoring.
 
 ### 4. Security Best Practices
 
-    User data is protected through input validation, password hashing (bcrypt.js), and secure session management.
+User data is protected through input validation, password hashing (bcrypt.js), and secure session management.
 
-    Helmet.js is used to set appropriate HTTP headers and mitigate common web vulnerabilities like cross-site scripting (XSS) and clickjacking.
+Helmet.js is used to set appropriate HTTP headers and mitigate common web vulnerabilities like cross-site scripting (XSS) and clickjacking.
 
-    Additionally, all JavaScript logic has been separated from the browser inspect html layer: no JavaScript is written directly in EJS or HTML files. Instead, all client-side scripts are organized and maintained within the dedicated /scripts directory. This separation improves both security and maintainability, reducing the risk of XSS attacks and promoting clean architecture.
+Additionally, all JavaScript logic has been separated from the browser inspect html layer: no JavaScript is written directly in EJS or HTML files. Instead, all client-side scripts are organized and maintained within the dedicated /scripts directory. This separation improves both security and maintainability, reducing the risk of XSS attacks and promoting clean architecture.
 
 ### 5. Testing & Validation
 
-    The project includes test coverage using Jest, focusing on critical functionalities and server-side logic.
+The project includes test coverage using Jest, focusing on critical functionalities and server-side logic.
 
-    Manual testing was also conducted across various user flows to ensure that all routes, and components function correctly under real-world conditions.
+Manual testing was also conducted across various user flows to ensure that all routes, and components function correctly under real-world conditions.
 
 ### 6. Source Control & Collaboration
 
-    Git has been used for version control, following standard commit practices and branching models.
+Git has been used for version control, following standard commit practices and branching models.
 
-    Each new feature or bug fix is developed in a separate branch and merged via pull requests to maintain a clean and trackable development history.
+Each new feature or bug fix is developed in a separate branch and merged via pull requests to maintain a clean and trackable development history.
 
 ### 7. API & Database Interaction
 
-    Database operations are handled through Sequelize , ensuring structured and secure communication with the MySQL database.
+Database operations are handled through Sequelize , ensuring structured and secure communication with the MySQL database.
 
-    All API endpoints follow RESTful design principles, making backend interactions intuitive and scalable.
+All API endpoints follow RESTful design principles, making backend interactions intuitive and scalable.
 
 ## Contribute to my Website:
 

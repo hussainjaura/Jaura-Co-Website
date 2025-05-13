@@ -15,6 +15,36 @@ https://jaura-co-website.onrender.com
 6. After dependencies are installed properly, from root directory type 'node src/server.js' to run the Clothing Website locally.
 7. Open your browser and type 'http://localhost:3000' to run the Website.
 
+## Dependencies:
+
+The following npm packages are required to run this project:
+
+1. **bcryptjs** – Library to hash and verify passwords securely.
+2. **body-parser** – Middleware for parsing incoming request bodies.
+3. **connect-mysql2** – MySQL session store for Express.
+4. **cookie-parser** – Middleware to parse cookies.
+5. **ejs** – Embedded JavaScript templating engine.
+6. **express** – Web framework for Node.js.
+7. **express-mysql-session** – MySQL session store for Express.
+8. **express-session** – Middleware for managing sessions.
+9. **helmet** – Helps secure your Express apps by setting various HTTP headers.
+10. **mysql2** – MySQL client for Node.js.
+11. **sequelize** – Promise-based ORM for Node.js to interact with MySQL.
+12. **stripe** – Stripe payment gateway integration.
+13. **winston** – A logging library for Node.js.
+14. **winston-daily-rotate-file** – A transport for winston for logging to daily rotating log files.
+
+### DevDependencies:
+
+1. **@babel/core** – Babel compiler core.
+2. **@babel/preset-env** – Babel preset for compiling JavaScript based on the target environment.
+3. **babel-jest** – Jest transformer for Babel.
+4. **jest** – JavaScript testing framework.
+5. **nodemon** – Automatically restarts the server on code changes.
+6. **supertest** – Testing library for HTTP assertions.
+
+To install all dependencies, type 'npm install' in the terminal.
+
 ## Technologies used in Jaura & Co Website:
 
 - Javascript

@@ -1,0 +1,5 @@
+[2025-05-15 12:04:12] [32minfo[39m: Session store initialized successfully.
+[2025-05-15 12:04:14] [32minfo[39m: server is running at http://localhost:3000
+[2025-05-15 12:04:15] [32minfo[39m: Database connected! Test query result: 2
+[2025-05-15 12:04:15] [32minfo[39m: SESSION database connected successfully.
+[2025-05-15 12:04:15] [32minfo[39m: SESSION database connected successfully
